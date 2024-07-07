@@ -1,0 +1,5222 @@
+[
+  {
+    "file": "../spine-runtimes/spine-cpp/spine-cpp-lite/spine-cpp-lite.h",
+    "line": 85,
+    "name": "spine_transform_constraint_data",
+    "doc": "",
+    "methods": [
+      {
+        "name": "spine_transform_constraint_data_get_num_bones",
+        "parameters": "(spine_transform_constraint_data data)",
+        "doc": "// OMITTED setToSetupPose()",
+        "line": 802
+      },
+      {
+        "name": "spine_transform_constraint_data_get_bones",
+        "parameters": "(spine_transform_constraint_data data)",
+        "doc": "",
+        "line": 803
+      },
+      {
+        "name": "spine_transform_constraint_data_get_target",
+        "parameters": "(spine_transform_constraint_data data)",
+        "doc": "",
+        "line": 804
+      },
+      {
+        "name": "spine_transform_constraint_data_set_target",
+        "parameters": "(spine_transform_constraint_data data, spine_bone_data target)",
+        "doc": "",
+        "line": 805
+      },
+      {
+        "name": "spine_transform_constraint_data_get_mix_rotate",
+        "parameters": "(spine_transform_constraint_data data)",
+        "doc": "",
+        "line": 806
+      },
+      {
+        "name": "spine_transform_constraint_data_set_mix_rotate",
+        "parameters": "(spine_transform_constraint_data data, float mixRotate)",
+        "doc": "",
+        "line": 807
+      },
+      {
+        "name": "spine_transform_constraint_data_get_mix_x",
+        "parameters": "(spine_transform_constraint_data data)",
+        "doc": "",
+        "line": 808
+      },
+      {
+        "name": "spine_transform_constraint_data_set_mix_x",
+        "parameters": "(spine_transform_constraint_data data, float mixX)",
+        "doc": "",
+        "line": 809
+      },
+      {
+        "name": "spine_transform_constraint_data_get_mix_y",
+        "parameters": "(spine_transform_constraint_data data)",
+        "doc": "",
+        "line": 810
+      },
+      {
+        "name": "spine_transform_constraint_data_set_mix_y",
+        "parameters": "(spine_transform_constraint_data data, float mixY)",
+        "doc": "",
+        "line": 811
+      },
+      {
+        "name": "spine_transform_constraint_data_get_mix_scale_x",
+        "parameters": "(spine_transform_constraint_data data)",
+        "doc": "",
+        "line": 812
+      },
+      {
+        "name": "spine_transform_constraint_data_set_mix_scale_x",
+        "parameters": "(spine_transform_constraint_data data, float mixScaleX)",
+        "doc": "",
+        "line": 813
+      },
+      {
+        "name": "spine_transform_constraint_data_get_mix_scale_y",
+        "parameters": "(spine_transform_constraint_data data)",
+        "doc": "",
+        "line": 814
+      },
+      {
+        "name": "spine_transform_constraint_data_set_mix_scale_y",
+        "parameters": "(spine_transform_constraint_data data, float mixScaleY)",
+        "doc": "",
+        "line": 815
+      },
+      {
+        "name": "spine_transform_constraint_data_get_mix_shear_y",
+        "parameters": "(spine_transform_constraint_data data)",
+        "doc": "",
+        "line": 816
+      },
+      {
+        "name": "spine_transform_constraint_data_set_mix_shear_y",
+        "parameters": "(spine_transform_constraint_data data, float mixShearY)",
+        "doc": "",
+        "line": 817
+      },
+      {
+        "name": "spine_transform_constraint_data_get_offset_rotation",
+        "parameters": "(spine_transform_constraint_data data)",
+        "doc": "",
+        "line": 818
+      },
+      {
+        "name": "spine_transform_constraint_data_set_offset_rotation",
+        "parameters": "(spine_transform_constraint_data data, float offsetRotation)",
+        "doc": "",
+        "line": 819
+      },
+      {
+        "name": "spine_transform_constraint_data_get_offset_x",
+        "parameters": "(spine_transform_constraint_data data)",
+        "doc": "",
+        "line": 820
+      },
+      {
+        "name": "spine_transform_constraint_data_set_offset_x",
+        "parameters": "(spine_transform_constraint_data data, float offsetX)",
+        "doc": "",
+        "line": 821
+      },
+      {
+        "name": "spine_transform_constraint_data_get_offset_y",
+        "parameters": "(spine_transform_constraint_data data)",
+        "doc": "",
+        "line": 822
+      },
+      {
+        "name": "spine_transform_constraint_data_set_offset_y",
+        "parameters": "(spine_transform_constraint_data data, float offsetY)",
+        "doc": "",
+        "line": 823
+      },
+      {
+        "name": "spine_transform_constraint_data_get_offset_scale_x",
+        "parameters": "(spine_transform_constraint_data data)",
+        "doc": "",
+        "line": 824
+      },
+      {
+        "name": "spine_transform_constraint_data_set_offset_scale_x",
+        "parameters": "(spine_transform_constraint_data data, float offsetScaleX)",
+        "doc": "",
+        "line": 825
+      },
+      {
+        "name": "spine_transform_constraint_data_get_offset_scale_y",
+        "parameters": "(spine_transform_constraint_data data)",
+        "doc": "",
+        "line": 826
+      },
+      {
+        "name": "spine_transform_constraint_data_set_offset_scale_y",
+        "parameters": "(spine_transform_constraint_data data, float offsetScaleY)",
+        "doc": "",
+        "line": 827
+      },
+      {
+        "name": "spine_transform_constraint_data_get_offset_shear_y",
+        "parameters": "(spine_transform_constraint_data data)",
+        "doc": "",
+        "line": 828
+      },
+      {
+        "name": "spine_transform_constraint_data_set_offset_shear_y",
+        "parameters": "(spine_transform_constraint_data data, float offsetShearY)",
+        "doc": "",
+        "line": 829
+      },
+      {
+        "name": "spine_transform_constraint_data_get_is_relative",
+        "parameters": "(spine_transform_constraint_data data)",
+        "doc": "",
+        "line": 830
+      },
+      {
+        "name": "spine_transform_constraint_data_set_is_relative",
+        "parameters": "(spine_transform_constraint_data data, spine_bool isRelative)",
+        "doc": "",
+        "line": 831
+      },
+      {
+        "name": "spine_transform_constraint_data_get_is_local",
+        "parameters": "(spine_transform_constraint_data data)",
+        "doc": "",
+        "line": 832
+      },
+      {
+        "name": "spine_transform_constraint_data_set_is_local",
+        "parameters": "(spine_transform_constraint_data data, spine_bool isLocal)",
+        "doc": "",
+        "line": 833
+      }
+    ],
+    "fields": [],
+    "type": "struct"
+  },
+  {
+    "file": "../spine-runtimes/spine-cpp/spine-cpp-lite/spine-cpp-lite.h",
+    "line": 75,
+    "name": "spine_bounding_box_attachment",
+    "doc": "",
+    "methods": [
+      {
+        "name": "spine_bounding_box_attachment_get_color",
+        "parameters": "(spine_bounding_box_attachment attachment)",
+        "doc": "",
+        "line": 720
+      },
+      {
+        "name": "spine_bounding_box_attachment_set_color",
+        "parameters": "(spine_bounding_box_attachment attachment, float r, float g, float b, float a)",
+        "doc": "",
+        "line": 721
+      }
+    ],
+    "fields": [],
+    "type": "struct"
+  },
+  {
+    "file": "../spine-runtimes/spine-cpp/spine-cpp-lite/spine-cpp-lite.h",
+    "line": 89,
+    "name": "spine_physics_constraint_data",
+    "doc": "",
+    "methods": [
+      {
+        "name": "spine_physics_constraint_data_set_bone",
+        "parameters": "(spine_physics_constraint_data data, spine_bone_data bone)",
+        "doc": "// OMITTED setToSetupPose()",
+        "line": 903
+      },
+      {
+        "name": "spine_physics_constraint_data_get_bone",
+        "parameters": "(spine_physics_constraint_data data)",
+        "doc": "",
+        "line": 904
+      },
+      {
+        "name": "spine_physics_constraint_data_set_x",
+        "parameters": "(spine_physics_constraint_data data, float x)",
+        "doc": "",
+        "line": 905
+      },
+      {
+        "name": "spine_physics_constraint_data_get_x",
+        "parameters": "(spine_physics_constraint_data data)",
+        "doc": "",
+        "line": 906
+      },
+      {
+        "name": "spine_physics_constraint_data_set_y",
+        "parameters": "(spine_physics_constraint_data data, float y)",
+        "doc": "",
+        "line": 907
+      },
+      {
+        "name": "spine_physics_constraint_data_get_y",
+        "parameters": "(spine_physics_constraint_data data)",
+        "doc": "",
+        "line": 908
+      },
+      {
+        "name": "spine_physics_constraint_data_set_rotate",
+        "parameters": "(spine_physics_constraint_data data, float rotate)",
+        "doc": "",
+        "line": 909
+      },
+      {
+        "name": "spine_physics_constraint_data_get_rotate",
+        "parameters": "(spine_physics_constraint_data data)",
+        "doc": "",
+        "line": 910
+      },
+      {
+        "name": "spine_physics_constraint_data_set_scale_x",
+        "parameters": "(spine_physics_constraint_data data, float scaleX)",
+        "doc": "",
+        "line": 911
+      },
+      {
+        "name": "spine_physics_constraint_data_get_scale_x",
+        "parameters": "(spine_physics_constraint_data data)",
+        "doc": "",
+        "line": 912
+      },
+      {
+        "name": "spine_physics_constraint_data_set_shear_x",
+        "parameters": "(spine_physics_constraint_data data, float shearX)",
+        "doc": "",
+        "line": 913
+      },
+      {
+        "name": "spine_physics_constraint_data_get_shear_x",
+        "parameters": "(spine_physics_constraint_data data)",
+        "doc": "",
+        "line": 914
+      },
+      {
+        "name": "spine_physics_constraint_data_set_limit",
+        "parameters": "(spine_physics_constraint_data data, float limit)",
+        "doc": "",
+        "line": 915
+      },
+      {
+        "name": "spine_physics_constraint_data_get_limit",
+        "parameters": "(spine_physics_constraint_data data)",
+        "doc": "",
+        "line": 916
+      },
+      {
+        "name": "spine_physics_constraint_data_set_step",
+        "parameters": "(spine_physics_constraint_data data, float step)",
+        "doc": "",
+        "line": 917
+      },
+      {
+        "name": "spine_physics_constraint_data_get_step",
+        "parameters": "(spine_physics_constraint_data data)",
+        "doc": "",
+        "line": 918
+      },
+      {
+        "name": "spine_physics_constraint_data_set_inertia",
+        "parameters": "(spine_physics_constraint_data data, float inertia)",
+        "doc": "",
+        "line": 919
+      },
+      {
+        "name": "spine_physics_constraint_data_get_inertia",
+        "parameters": "(spine_physics_constraint_data data)",
+        "doc": "",
+        "line": 920
+      },
+      {
+        "name": "spine_physics_constraint_data_set_strength",
+        "parameters": "(spine_physics_constraint_data data, float strength)",
+        "doc": "",
+        "line": 921
+      },
+      {
+        "name": "spine_physics_constraint_data_get_strength",
+        "parameters": "(spine_physics_constraint_data data)",
+        "doc": "",
+        "line": 922
+      },
+      {
+        "name": "spine_physics_constraint_data_set_damping",
+        "parameters": "(spine_physics_constraint_data data, float damping)",
+        "doc": "",
+        "line": 923
+      },
+      {
+        "name": "spine_physics_constraint_data_get_damping",
+        "parameters": "(spine_physics_constraint_data data)",
+        "doc": "",
+        "line": 924
+      },
+      {
+        "name": "spine_physics_constraint_data_set_mass_inverse",
+        "parameters": "(spine_physics_constraint_data data, float massInverse)",
+        "doc": "",
+        "line": 925
+      },
+      {
+        "name": "spine_physics_constraint_data_get_mass_inverse",
+        "parameters": "(spine_physics_constraint_data data)",
+        "doc": "",
+        "line": 926
+      },
+      {
+        "name": "spine_physics_constraint_data_set_wind",
+        "parameters": "(spine_physics_constraint_data data, float wind)",
+        "doc": "",
+        "line": 927
+      },
+      {
+        "name": "spine_physics_constraint_data_get_wind",
+        "parameters": "(spine_physics_constraint_data data)",
+        "doc": "",
+        "line": 928
+      },
+      {
+        "name": "spine_physics_constraint_data_set_gravity",
+        "parameters": "(spine_physics_constraint_data data, float gravity)",
+        "doc": "",
+        "line": 929
+      },
+      {
+        "name": "spine_physics_constraint_data_get_gravity",
+        "parameters": "(spine_physics_constraint_data data)",
+        "doc": "",
+        "line": 930
+      },
+      {
+        "name": "spine_physics_constraint_data_set_mix",
+        "parameters": "(spine_physics_constraint_data data, float mix)",
+        "doc": "",
+        "line": 931
+      },
+      {
+        "name": "spine_physics_constraint_data_get_mix",
+        "parameters": "(spine_physics_constraint_data data)",
+        "doc": "",
+        "line": 932
+      },
+      {
+        "name": "spine_physics_constraint_data_set_inertia_global",
+        "parameters": "(spine_physics_constraint_data data, spine_bool inertiaGlobal)",
+        "doc": "",
+        "line": 933
+      },
+      {
+        "name": "spine_physics_constraint_data_is_inertia_global",
+        "parameters": "(spine_physics_constraint_data data)",
+        "doc": "",
+        "line": 934
+      },
+      {
+        "name": "spine_physics_constraint_data_set_strength_global",
+        "parameters": "(spine_physics_constraint_data data, spine_bool strengthGlobal)",
+        "doc": "",
+        "line": 935
+      },
+      {
+        "name": "spine_physics_constraint_data_is_strength_global",
+        "parameters": "(spine_physics_constraint_data data)",
+        "doc": "",
+        "line": 936
+      },
+      {
+        "name": "spine_physics_constraint_data_set_damping_global",
+        "parameters": "(spine_physics_constraint_data data, spine_bool dampingGlobal)",
+        "doc": "",
+        "line": 937
+      },
+      {
+        "name": "spine_physics_constraint_data_is_damping_global",
+        "parameters": "(spine_physics_constraint_data data)",
+        "doc": "",
+        "line": 938
+      },
+      {
+        "name": "spine_physics_constraint_data_set_mass_global",
+        "parameters": "(spine_physics_constraint_data data, spine_bool massGlobal)",
+        "doc": "",
+        "line": 939
+      },
+      {
+        "name": "spine_physics_constraint_data_is_mass_global",
+        "parameters": "(spine_physics_constraint_data data)",
+        "doc": "",
+        "line": 940
+      },
+      {
+        "name": "spine_physics_constraint_data_set_wind_global",
+        "parameters": "(spine_physics_constraint_data data, spine_bool windGlobal)",
+        "doc": "",
+        "line": 941
+      },
+      {
+        "name": "spine_physics_constraint_data_is_wind_global",
+        "parameters": "(spine_physics_constraint_data data)",
+        "doc": "",
+        "line": 942
+      },
+      {
+        "name": "spine_physics_constraint_data_set_gravity_global",
+        "parameters": "(spine_physics_constraint_data data, spine_bool gravityGlobal)",
+        "doc": "",
+        "line": 943
+      },
+      {
+        "name": "spine_physics_constraint_data_is_gravity_global",
+        "parameters": "(spine_physics_constraint_data data)",
+        "doc": "",
+        "line": 944
+      },
+      {
+        "name": "spine_physics_constraint_data_set_mix_global",
+        "parameters": "(spine_physics_constraint_data data, spine_bool mixGlobal)",
+        "doc": "",
+        "line": 945
+      },
+      {
+        "name": "spine_physics_constraint_data_is_mix_global",
+        "parameters": "(spine_physics_constraint_data data)",
+        "doc": "",
+        "line": 946
+      }
+    ],
+    "fields": [],
+    "type": "struct"
+  },
+  {
+    "file": "../spine-runtimes/spine-cpp/spine-cpp-lite/spine-cpp-lite.h",
+    "line": 92,
+    "name": "spine_animation_state_events",
+    "doc": "",
+    "methods": [
+      {
+        "name": "spine_animation_state_events_get_num_events",
+        "parameters": "(spine_animation_state_events events)",
+        "doc": "",
+        "line": 342
+      },
+      {
+        "name": "spine_animation_state_events_get_event_type",
+        "parameters": "(spine_animation_state_events events, int32_t index)",
+        "doc": "",
+        "line": 343
+      },
+      {
+        "name": "spine_animation_state_events_get_track_entry",
+        "parameters": "(spine_animation_state_events events, int32_t index)",
+        "doc": "",
+        "line": 344
+      },
+      {
+        "name": "spine_animation_state_events_get_event",
+        "parameters": "(spine_animation_state_events events, int32_t index)",
+        "doc": "// @optional",
+        "line": 346
+      },
+      {
+        "name": "spine_animation_state_events_reset",
+        "parameters": "(spine_animation_state_events events)",
+        "doc": "",
+        "line": 347
+      }
+    ],
+    "fields": [],
+    "type": "struct"
+  },
+  {
+    "file": "../spine-runtimes/spine-cpp/spine-cpp-lite/spine-cpp-lite.h",
+    "line": 84,
+    "name": "spine_transform_constraint",
+    "doc": "",
+    "methods": [
+      {
+        "name": "spine_transform_constraint_update",
+        "parameters": "(spine_transform_constraint constraint)",
+        "doc": "",
+        "line": 835
+      },
+      {
+        "name": "spine_transform_constraint_get_order",
+        "parameters": "(spine_transform_constraint constraint)",
+        "doc": "",
+        "line": 836
+      },
+      {
+        "name": "spine_transform_constraint_get_data",
+        "parameters": "(spine_transform_constraint constraint)",
+        "doc": "",
+        "line": 837
+      },
+      {
+        "name": "spine_transform_constraint_get_num_bones",
+        "parameters": "(spine_transform_constraint constraint)",
+        "doc": "",
+        "line": 838
+      },
+      {
+        "name": "spine_transform_constraint_get_bones",
+        "parameters": "(spine_transform_constraint constraint)",
+        "doc": "",
+        "line": 839
+      },
+      {
+        "name": "spine_transform_constraint_get_target",
+        "parameters": "(spine_transform_constraint constraint)",
+        "doc": "",
+        "line": 840
+      },
+      {
+        "name": "spine_transform_constraint_set_target",
+        "parameters": "(spine_transform_constraint constraint, spine_bone target)",
+        "doc": "",
+        "line": 841
+      },
+      {
+        "name": "spine_transform_constraint_get_mix_rotate",
+        "parameters": "(spine_transform_constraint constraint)",
+        "doc": "",
+        "line": 842
+      },
+      {
+        "name": "spine_transform_constraint_set_mix_rotate",
+        "parameters": "(spine_transform_constraint constraint, float mixRotate)",
+        "doc": "",
+        "line": 843
+      },
+      {
+        "name": "spine_transform_constraint_get_mix_x",
+        "parameters": "(spine_transform_constraint constraint)",
+        "doc": "",
+        "line": 844
+      },
+      {
+        "name": "spine_transform_constraint_set_mix_x",
+        "parameters": "(spine_transform_constraint constraint, float mixX)",
+        "doc": "",
+        "line": 845
+      },
+      {
+        "name": "spine_transform_constraint_get_mix_y",
+        "parameters": "(spine_transform_constraint constraint)",
+        "doc": "",
+        "line": 846
+      },
+      {
+        "name": "spine_transform_constraint_set_mix_y",
+        "parameters": "(spine_transform_constraint constraint, float mixY)",
+        "doc": "",
+        "line": 847
+      },
+      {
+        "name": "spine_transform_constraint_get_mix_scale_x",
+        "parameters": "(spine_transform_constraint constraint)",
+        "doc": "",
+        "line": 848
+      },
+      {
+        "name": "spine_transform_constraint_set_mix_scale_x",
+        "parameters": "(spine_transform_constraint constraint, float mixScaleX)",
+        "doc": "",
+        "line": 849
+      },
+      {
+        "name": "spine_transform_constraint_get_mix_scale_y",
+        "parameters": "(spine_transform_constraint constraint)",
+        "doc": "",
+        "line": 850
+      },
+      {
+        "name": "spine_transform_constraint_set_mix_scale_y",
+        "parameters": "(spine_transform_constraint constraint, float mixScaleY)",
+        "doc": "",
+        "line": 851
+      },
+      {
+        "name": "spine_transform_constraint_get_mix_shear_y",
+        "parameters": "(spine_transform_constraint constraint)",
+        "doc": "",
+        "line": 852
+      },
+      {
+        "name": "spine_transform_constraint_set_mix_shear_y",
+        "parameters": "(spine_transform_constraint constraint, float mixShearY)",
+        "doc": "",
+        "line": 853
+      },
+      {
+        "name": "spine_transform_constraint_get_is_active",
+        "parameters": "(spine_transform_constraint constraint)",
+        "doc": "",
+        "line": 854
+      },
+      {
+        "name": "spine_transform_constraint_set_is_active",
+        "parameters": "(spine_transform_constraint constraint, spine_bool isActive)",
+        "doc": "",
+        "line": 855
+      }
+    ],
+    "fields": [],
+    "type": "struct"
+  },
+  {
+    "file": "../spine-runtimes/spine-cpp/spine-cpp-lite/spine-cpp-lite.h",
+    "line": 87,
+    "name": "spine_path_constraint_data",
+    "doc": "",
+    "methods": [
+      {
+        "name": "spine_path_constraint_data_get_num_bones",
+        "parameters": "(spine_path_constraint_data data)",
+        "doc": "// OMITTED setToSetupPose()",
+        "line": 859
+      },
+      {
+        "name": "spine_path_constraint_data_get_bones",
+        "parameters": "(spine_path_constraint_data data)",
+        "doc": "",
+        "line": 860
+      },
+      {
+        "name": "spine_path_constraint_data_get_target",
+        "parameters": "(spine_path_constraint_data data)",
+        "doc": "",
+        "line": 861
+      },
+      {
+        "name": "spine_path_constraint_data_set_target",
+        "parameters": "(spine_path_constraint_data data, spine_slot_data target)",
+        "doc": "",
+        "line": 862
+      },
+      {
+        "name": "spine_path_constraint_data_get_position_mode",
+        "parameters": "(spine_path_constraint_data data)",
+        "doc": "",
+        "line": 863
+      },
+      {
+        "name": "spine_path_constraint_data_set_position_mode",
+        "parameters": "(spine_path_constraint_data data, spine_position_mode positionMode)",
+        "doc": "",
+        "line": 864
+      },
+      {
+        "name": "spine_path_constraint_data_get_spacing_mode",
+        "parameters": "(spine_path_constraint_data data)",
+        "doc": "",
+        "line": 865
+      },
+      {
+        "name": "spine_path_constraint_data_set_spacing_mode",
+        "parameters": "(spine_path_constraint_data data, spine_spacing_mode spacingMode)",
+        "doc": "",
+        "line": 866
+      },
+      {
+        "name": "spine_path_constraint_data_get_rotate_mode",
+        "parameters": "(spine_path_constraint_data data)",
+        "doc": "",
+        "line": 867
+      },
+      {
+        "name": "spine_path_constraint_data_set_rotate_mode",
+        "parameters": "(spine_path_constraint_data data, spine_rotate_mode rotateMode)",
+        "doc": "",
+        "line": 868
+      },
+      {
+        "name": "spine_path_constraint_data_get_offset_rotation",
+        "parameters": "(spine_path_constraint_data data)",
+        "doc": "",
+        "line": 869
+      },
+      {
+        "name": "spine_path_constraint_data_set_offset_rotation",
+        "parameters": "(spine_path_constraint_data data, float offsetRotation)",
+        "doc": "",
+        "line": 870
+      },
+      {
+        "name": "spine_path_constraint_data_get_position",
+        "parameters": "(spine_path_constraint_data data)",
+        "doc": "",
+        "line": 871
+      },
+      {
+        "name": "spine_path_constraint_data_set_position",
+        "parameters": "(spine_path_constraint_data data, float position)",
+        "doc": "",
+        "line": 872
+      },
+      {
+        "name": "spine_path_constraint_data_get_spacing",
+        "parameters": "(spine_path_constraint_data data)",
+        "doc": "",
+        "line": 873
+      },
+      {
+        "name": "spine_path_constraint_data_set_spacing",
+        "parameters": "(spine_path_constraint_data data, float spacing)",
+        "doc": "",
+        "line": 874
+      },
+      {
+        "name": "spine_path_constraint_data_get_mix_rotate",
+        "parameters": "(spine_path_constraint_data data)",
+        "doc": "",
+        "line": 875
+      },
+      {
+        "name": "spine_path_constraint_data_set_mix_rotate",
+        "parameters": "(spine_path_constraint_data data, float mixRotate)",
+        "doc": "",
+        "line": 876
+      },
+      {
+        "name": "spine_path_constraint_data_get_mix_x",
+        "parameters": "(spine_path_constraint_data data)",
+        "doc": "",
+        "line": 877
+      },
+      {
+        "name": "spine_path_constraint_data_set_mix_x",
+        "parameters": "(spine_path_constraint_data data, float mixX)",
+        "doc": "",
+        "line": 878
+      },
+      {
+        "name": "spine_path_constraint_data_get_mix_y",
+        "parameters": "(spine_path_constraint_data data)",
+        "doc": "",
+        "line": 879
+      },
+      {
+        "name": "spine_path_constraint_data_set_mix_y",
+        "parameters": "(spine_path_constraint_data data, float mixY)",
+        "doc": "",
+        "line": 880
+      }
+    ],
+    "fields": [],
+    "type": "struct"
+  },
+  {
+    "file": "../spine-runtimes/spine-cpp/spine-cpp-lite/spine-cpp-lite.h",
+    "line": 91,
+    "name": "spine_animation_state_data",
+    "doc": "",
+    "methods": [
+      {
+        "name": "spine_animation_state_data_get_skeleton_data",
+        "parameters": "(spine_animation_state_data stateData)",
+        "doc": "// OMITTED setDuration()",
+        "line": 307
+      },
+      {
+        "name": "spine_animation_state_data_get_default_mix",
+        "parameters": "(spine_animation_state_data stateData)",
+        "doc": "",
+        "line": 308
+      },
+      {
+        "name": "spine_animation_state_data_set_default_mix",
+        "parameters": "(spine_animation_state_data stateData, float defaultMix)",
+        "doc": "",
+        "line": 309
+      },
+      {
+        "name": "spine_animation_state_data_set_mix",
+        "parameters": "(spine_animation_state_data stateData, spine_animation from, spine_animation to, float duration)",
+        "doc": "",
+        "line": 310
+      },
+      {
+        "name": "spine_animation_state_data_get_mix",
+        "parameters": "(spine_animation_state_data stateData, spine_animation from, spine_animation to)",
+        "doc": "",
+        "line": 311
+      },
+      {
+        "name": "spine_animation_state_data_set_mix_by_name",
+        "parameters": "(spine_animation_state_data stateData, const utf8 *fromName, const utf8 *toName, float duration)",
+        "doc": "",
+        "line": 312
+      },
+      {
+        "name": "spine_animation_state_data_get_mix_by_name",
+        "parameters": "(spine_animation_state_data stateData, const utf8 *fromName, const utf8 *toName)",
+        "doc": "",
+        "line": 313
+      },
+      {
+        "name": "spine_animation_state_data_clear",
+        "parameters": "(spine_animation_state_data stateData)",
+        "doc": "",
+        "line": 314
+      }
+    ],
+    "fields": [],
+    "type": "struct"
+  },
+  {
+    "file": "../spine-runtimes/spine-cpp/spine-cpp-lite/spine-cpp-lite.h",
+    "line": 98,
+    "name": "spine_skeleton_data_result",
+    "doc": "",
+    "methods": [
+      {
+        "name": "spine_skeleton_data_result_get_error",
+        "parameters": "(spine_skeleton_data_result result)",
+        "doc": "",
+        "line": 220
+      },
+      {
+        "name": "spine_skeleton_data_result_get_data",
+        "parameters": "(spine_skeleton_data_result result)",
+        "doc": "",
+        "line": 221
+      },
+      {
+        "name": "spine_skeleton_data_result_dispose",
+        "parameters": "(spine_skeleton_data_result result)",
+        "doc": "",
+        "line": 222
+      }
+    ],
+    "fields": [],
+    "type": "struct"
+  },
+  {
+    "file": "../spine-runtimes/spine-cpp/spine-cpp-lite/spine-cpp-lite.h",
+    "line": 74,
+    "name": "spine_clipping_attachment",
+    "doc": "",
+    "methods": [
+      {
+        "name": "spine_clipping_attachment_get_end_slot",
+        "parameters": "(spine_clipping_attachment attachment)",
+        "doc": "// @optional",
+        "line": 715
+      },
+      {
+        "name": "spine_clipping_attachment_set_end_slot",
+        "parameters": "(spine_clipping_attachment attachment, spine_slot_data endSlot)",
+        "doc": "",
+        "line": 716
+      },
+      {
+        "name": "spine_clipping_attachment_get_color",
+        "parameters": "(spine_clipping_attachment attachment)",
+        "doc": "",
+        "line": 717
+      },
+      {
+        "name": "spine_clipping_attachment_set_color",
+        "parameters": "(spine_clipping_attachment attachment, float r, float g, float b, float a)",
+        "doc": "",
+        "line": 718
+      }
+    ],
+    "fields": [],
+    "type": "struct"
+  },
+  {
+    "file": "../spine-runtimes/spine-cpp/spine-cpp-lite/spine-cpp-lite.h",
+    "line": 83,
+    "name": "spine_ik_constraint_data",
+    "doc": "",
+    "methods": [
+      {
+        "name": "spine_ik_constraint_data_get_num_bones",
+        "parameters": "(spine_ik_constraint_data data)",
+        "doc": "",
+        "line": 764
+      },
+      {
+        "name": "spine_ik_constraint_data_get_bones",
+        "parameters": "(spine_ik_constraint_data data)",
+        "doc": "",
+        "line": 765
+      },
+      {
+        "name": "spine_ik_constraint_data_get_target",
+        "parameters": "(spine_ik_constraint_data data)",
+        "doc": "",
+        "line": 766
+      },
+      {
+        "name": "spine_ik_constraint_data_set_target",
+        "parameters": "(spine_ik_constraint_data data, spine_bone_data target)",
+        "doc": "",
+        "line": 767
+      },
+      {
+        "name": "spine_ik_constraint_data_get_bend_direction",
+        "parameters": "(spine_ik_constraint_data data)",
+        "doc": "",
+        "line": 768
+      },
+      {
+        "name": "spine_ik_constraint_data_set_bend_direction",
+        "parameters": "(spine_ik_constraint_data data, int32_t bendDirection)",
+        "doc": "",
+        "line": 769
+      },
+      {
+        "name": "spine_ik_constraint_data_get_compress",
+        "parameters": "(spine_ik_constraint_data data)",
+        "doc": "",
+        "line": 770
+      },
+      {
+        "name": "spine_ik_constraint_data_set_compress",
+        "parameters": "(spine_ik_constraint_data data, spine_bool compress)",
+        "doc": "",
+        "line": 771
+      },
+      {
+        "name": "spine_ik_constraint_data_get_stretch",
+        "parameters": "(spine_ik_constraint_data data)",
+        "doc": "",
+        "line": 772
+      },
+      {
+        "name": "spine_ik_constraint_data_set_stretch",
+        "parameters": "(spine_ik_constraint_data data, spine_bool stretch)",
+        "doc": "",
+        "line": 773
+      },
+      {
+        "name": "spine_ik_constraint_data_get_uniform",
+        "parameters": "(spine_ik_constraint_data data)",
+        "doc": "",
+        "line": 774
+      },
+      {
+        "name": "spine_ik_constraint_data_set_uniform",
+        "parameters": "(spine_ik_constraint_data data, spine_bool uniform)",
+        "doc": "",
+        "line": 775
+      },
+      {
+        "name": "spine_ik_constraint_data_get_mix",
+        "parameters": "(spine_ik_constraint_data data)",
+        "doc": "",
+        "line": 776
+      },
+      {
+        "name": "spine_ik_constraint_data_set_mix",
+        "parameters": "(spine_ik_constraint_data data, float mix)",
+        "doc": "",
+        "line": 777
+      },
+      {
+        "name": "spine_ik_constraint_data_get_softness",
+        "parameters": "(spine_ik_constraint_data data)",
+        "doc": "",
+        "line": 778
+      },
+      {
+        "name": "spine_ik_constraint_data_set_softness",
+        "parameters": "(spine_ik_constraint_data data, float softness)",
+        "doc": "",
+        "line": 779
+      }
+    ],
+    "fields": [],
+    "type": "struct"
+  },
+  {
+    "file": "../spine-runtimes/spine-cpp/spine-cpp-lite/spine-cpp-lite.h",
+    "line": 88,
+    "name": "spine_physics_constraint",
+    "doc": "",
+    "methods": [
+      {
+        "name": "spine_physics_constraint_set_bone",
+        "parameters": "(spine_physics_constraint constraint, spine_bone bone)",
+        "doc": "",
+        "line": 948
+      },
+      {
+        "name": "spine_physics_constraint_get_bone",
+        "parameters": "(spine_physics_constraint constraint)",
+        "doc": "",
+        "line": 949
+      },
+      {
+        "name": "spine_physics_constraint_set_inertia",
+        "parameters": "(spine_physics_constraint constraint, float value)",
+        "doc": "",
+        "line": 950
+      },
+      {
+        "name": "spine_physics_constraint_get_inertia",
+        "parameters": "(spine_physics_constraint constraint)",
+        "doc": "",
+        "line": 951
+      },
+      {
+        "name": "spine_physics_constraint_set_strength",
+        "parameters": "(spine_physics_constraint constraint, float value)",
+        "doc": "",
+        "line": 952
+      },
+      {
+        "name": "spine_physics_constraint_get_strength",
+        "parameters": "(spine_physics_constraint constraint)",
+        "doc": "",
+        "line": 953
+      },
+      {
+        "name": "spine_physics_constraint_set_damping",
+        "parameters": "(spine_physics_constraint constraint, float value)",
+        "doc": "",
+        "line": 954
+      },
+      {
+        "name": "spine_physics_constraint_get_damping",
+        "parameters": "(spine_physics_constraint constraint)",
+        "doc": "",
+        "line": 955
+      },
+      {
+        "name": "spine_physics_constraint_set_mass_inverse",
+        "parameters": "(spine_physics_constraint constraint, float value)",
+        "doc": "",
+        "line": 956
+      },
+      {
+        "name": "spine_physics_constraint_get_mass_inverse",
+        "parameters": "(spine_physics_constraint constraint)",
+        "doc": "",
+        "line": 957
+      },
+      {
+        "name": "spine_physics_constraint_set_wind",
+        "parameters": "(spine_physics_constraint constraint, float value)",
+        "doc": "",
+        "line": 958
+      },
+      {
+        "name": "spine_physics_constraint_get_wind",
+        "parameters": "(spine_physics_constraint constraint)",
+        "doc": "",
+        "line": 959
+      },
+      {
+        "name": "spine_physics_constraint_set_gravity",
+        "parameters": "(spine_physics_constraint constraint, float value)",
+        "doc": "",
+        "line": 960
+      },
+      {
+        "name": "spine_physics_constraint_get_gravity",
+        "parameters": "(spine_physics_constraint constraint)",
+        "doc": "",
+        "line": 961
+      },
+      {
+        "name": "spine_physics_constraint_set_mix",
+        "parameters": "(spine_physics_constraint constraint, float value)",
+        "doc": "",
+        "line": 962
+      },
+      {
+        "name": "spine_physics_constraint_get_mix",
+        "parameters": "(spine_physics_constraint constraint)",
+        "doc": "",
+        "line": 963
+      },
+      {
+        "name": "spine_physics_constraint_set_reset",
+        "parameters": "(spine_physics_constraint constraint, spine_bool value)",
+        "doc": "",
+        "line": 964
+      },
+      {
+        "name": "spine_physics_constraint_get_reset",
+        "parameters": "(spine_physics_constraint constraint)",
+        "doc": "",
+        "line": 965
+      },
+      {
+        "name": "spine_physics_constraint_set_ux",
+        "parameters": "(spine_physics_constraint constraint, float value)",
+        "doc": "",
+        "line": 966
+      },
+      {
+        "name": "spine_physics_constraint_get_ux",
+        "parameters": "(spine_physics_constraint constraint)",
+        "doc": "",
+        "line": 967
+      },
+      {
+        "name": "spine_physics_constraint_set_uy",
+        "parameters": "(spine_physics_constraint constraint, float value)",
+        "doc": "",
+        "line": 968
+      },
+      {
+        "name": "spine_physics_constraint_get_uy",
+        "parameters": "(spine_physics_constraint constraint)",
+        "doc": "",
+        "line": 969
+      },
+      {
+        "name": "spine_physics_constraint_set_cx",
+        "parameters": "(spine_physics_constraint constraint, float value)",
+        "doc": "",
+        "line": 970
+      },
+      {
+        "name": "spine_physics_constraint_get_cx",
+        "parameters": "(spine_physics_constraint constraint)",
+        "doc": "",
+        "line": 971
+      },
+      {
+        "name": "spine_physics_constraint_set_cy",
+        "parameters": "(spine_physics_constraint constraint, float value)",
+        "doc": "",
+        "line": 972
+      },
+      {
+        "name": "spine_physics_constraint_get_cy",
+        "parameters": "(spine_physics_constraint constraint)",
+        "doc": "",
+        "line": 973
+      },
+      {
+        "name": "spine_physics_constraint_set_tx",
+        "parameters": "(spine_physics_constraint constraint, float value)",
+        "doc": "",
+        "line": 974
+      },
+      {
+        "name": "spine_physics_constraint_get_tx",
+        "parameters": "(spine_physics_constraint constraint)",
+        "doc": "",
+        "line": 975
+      },
+      {
+        "name": "spine_physics_constraint_set_ty",
+        "parameters": "(spine_physics_constraint constraint, float value)",
+        "doc": "",
+        "line": 976
+      },
+      {
+        "name": "spine_physics_constraint_get_ty",
+        "parameters": "(spine_physics_constraint constraint)",
+        "doc": "",
+        "line": 977
+      },
+      {
+        "name": "spine_physics_constraint_set_x_offset",
+        "parameters": "(spine_physics_constraint constraint, float value)",
+        "doc": "",
+        "line": 978
+      },
+      {
+        "name": "spine_physics_constraint_get_x_offset",
+        "parameters": "(spine_physics_constraint constraint)",
+        "doc": "",
+        "line": 979
+      },
+      {
+        "name": "spine_physics_constraint_set_x_velocity",
+        "parameters": "(spine_physics_constraint constraint, float value)",
+        "doc": "",
+        "line": 980
+      },
+      {
+        "name": "spine_physics_constraint_get_x_velocity",
+        "parameters": "(spine_physics_constraint constraint)",
+        "doc": "",
+        "line": 981
+      },
+      {
+        "name": "spine_physics_constraint_set_y_offset",
+        "parameters": "(spine_physics_constraint constraint, float value)",
+        "doc": "",
+        "line": 982
+      },
+      {
+        "name": "spine_physics_constraint_get_y_offset",
+        "parameters": "(spine_physics_constraint constraint)",
+        "doc": "",
+        "line": 983
+      },
+      {
+        "name": "spine_physics_constraint_set_y_velocity",
+        "parameters": "(spine_physics_constraint constraint, float value)",
+        "doc": "",
+        "line": 984
+      },
+      {
+        "name": "spine_physics_constraint_get_y_velocity",
+        "parameters": "(spine_physics_constraint constraint)",
+        "doc": "",
+        "line": 985
+      },
+      {
+        "name": "spine_physics_constraint_set_rotate_offset",
+        "parameters": "(spine_physics_constraint constraint, float value)",
+        "doc": "",
+        "line": 986
+      },
+      {
+        "name": "spine_physics_constraint_get_rotate_offset",
+        "parameters": "(spine_physics_constraint constraint)",
+        "doc": "",
+        "line": 987
+      },
+      {
+        "name": "spine_physics_constraint_set_rotate_velocity",
+        "parameters": "(spine_physics_constraint constraint, float value)",
+        "doc": "",
+        "line": 988
+      },
+      {
+        "name": "spine_physics_constraint_get_rotate_velocity",
+        "parameters": "(spine_physics_constraint constraint)",
+        "doc": "",
+        "line": 989
+      },
+      {
+        "name": "spine_physics_constraint_set_scale_offset",
+        "parameters": "(spine_physics_constraint constraint, float value)",
+        "doc": "",
+        "line": 990
+      },
+      {
+        "name": "spine_physics_constraint_get_scale_offset",
+        "parameters": "(spine_physics_constraint constraint)",
+        "doc": "",
+        "line": 991
+      },
+      {
+        "name": "spine_physics_constraint_set_scale_velocity",
+        "parameters": "(spine_physics_constraint constraint, float value)",
+        "doc": "",
+        "line": 992
+      },
+      {
+        "name": "spine_physics_constraint_get_scale_velocity",
+        "parameters": "(spine_physics_constraint constraint)",
+        "doc": "",
+        "line": 993
+      },
+      {
+        "name": "spine_physics_constraint_set_active",
+        "parameters": "(spine_physics_constraint constraint, spine_bool value)",
+        "doc": "",
+        "line": 994
+      },
+      {
+        "name": "spine_physics_constraint_is_active",
+        "parameters": "(spine_physics_constraint constraint)",
+        "doc": "",
+        "line": 995
+      },
+      {
+        "name": "spine_physics_constraint_set_remaining",
+        "parameters": "(spine_physics_constraint constraint, float value)",
+        "doc": "",
+        "line": 996
+      },
+      {
+        "name": "spine_physics_constraint_get_remaining",
+        "parameters": "(spine_physics_constraint constraint)",
+        "doc": "",
+        "line": 997
+      },
+      {
+        "name": "spine_physics_constraint_set_last_time",
+        "parameters": "(spine_physics_constraint constraint, float value)",
+        "doc": "",
+        "line": 998
+      },
+      {
+        "name": "spine_physics_constraint_get_last_time",
+        "parameters": "(spine_physics_constraint constraint)",
+        "doc": "",
+        "line": 999
+      },
+      {
+        "name": "spine_physics_constraint_reset_fully",
+        "parameters": "(spine_physics_constraint constraint)",
+        "doc": "",
+        "line": 1000
+      },
+      {
+        "name": "spine_physics_constraint_update",
+        "parameters": "(spine_physics_constraint data, spine_physics physics)",
+        "doc": "// Omitted setToSetupPose()",
+        "line": 1002
+      },
+      {
+        "name": "spine_physics_constraint_translate",
+        "parameters": "(spine_physics_constraint data, float x, float y)",
+        "doc": "",
+        "line": 1003
+      },
+      {
+        "name": "spine_physics_constraint_rotate",
+        "parameters": "(spine_physics_constraint data, float x, float y, float degrees)",
+        "doc": "",
+        "line": 1004
+      }
+    ],
+    "fields": [],
+    "type": "struct"
+  },
+  {
+    "file": "../spine-runtimes/spine-cpp/spine-cpp-lite/spine-cpp-lite.h",
+    "line": 71,
+    "name": "spine_region_attachment",
+    "doc": "",
+    "methods": [
+      {
+        "name": "spine_region_attachment_update_region",
+        "parameters": "(spine_region_attachment attachment)",
+        "doc": "",
+        "line": 640
+      },
+      {
+        "name": "spine_region_attachment_compute_world_vertices",
+        "parameters": "(spine_region_attachment attachment, spine_slot slot, float *worldVertices)",
+        "doc": "// @ignore",
+        "line": 642
+      },
+      {
+        "name": "spine_region_attachment_get_x",
+        "parameters": "(spine_region_attachment attachment)",
+        "doc": "",
+        "line": 643
+      },
+      {
+        "name": "spine_region_attachment_set_x",
+        "parameters": "(spine_region_attachment attachment, float x)",
+        "doc": "",
+        "line": 644
+      },
+      {
+        "name": "spine_region_attachment_get_y",
+        "parameters": "(spine_region_attachment attachment)",
+        "doc": "",
+        "line": 645
+      },
+      {
+        "name": "spine_region_attachment_set_y",
+        "parameters": "(spine_region_attachment attachment, float y)",
+        "doc": "",
+        "line": 646
+      },
+      {
+        "name": "spine_region_attachment_get_rotation",
+        "parameters": "(spine_region_attachment attachment)",
+        "doc": "",
+        "line": 647
+      },
+      {
+        "name": "spine_region_attachment_set_rotation",
+        "parameters": "(spine_region_attachment attachment, float rotation)",
+        "doc": "",
+        "line": 648
+      },
+      {
+        "name": "spine_region_attachment_get_scale_x",
+        "parameters": "(spine_region_attachment attachment)",
+        "doc": "",
+        "line": 649
+      },
+      {
+        "name": "spine_region_attachment_set_scale_x",
+        "parameters": "(spine_region_attachment attachment, float scaleX)",
+        "doc": "",
+        "line": 650
+      },
+      {
+        "name": "spine_region_attachment_get_scale_y",
+        "parameters": "(spine_region_attachment attachment)",
+        "doc": "",
+        "line": 651
+      },
+      {
+        "name": "spine_region_attachment_set_scale_y",
+        "parameters": "(spine_region_attachment attachment, float scaleY)",
+        "doc": "",
+        "line": 652
+      },
+      {
+        "name": "spine_region_attachment_get_width",
+        "parameters": "(spine_region_attachment attachment)",
+        "doc": "",
+        "line": 653
+      },
+      {
+        "name": "spine_region_attachment_set_width",
+        "parameters": "(spine_region_attachment attachment, float width)",
+        "doc": "",
+        "line": 654
+      },
+      {
+        "name": "spine_region_attachment_get_height",
+        "parameters": "(spine_region_attachment attachment)",
+        "doc": "",
+        "line": 655
+      },
+      {
+        "name": "spine_region_attachment_set_height",
+        "parameters": "(spine_region_attachment attachment, float height)",
+        "doc": "",
+        "line": 656
+      },
+      {
+        "name": "spine_region_attachment_get_color",
+        "parameters": "(spine_region_attachment attachment)",
+        "doc": "",
+        "line": 657
+      },
+      {
+        "name": "spine_region_attachment_set_color",
+        "parameters": "(spine_region_attachment attachment, float r, float g, float b, float a)",
+        "doc": "",
+        "line": 658
+      },
+      {
+        "name": "spine_region_attachment_get_path",
+        "parameters": "(spine_region_attachment attachment)",
+        "doc": "",
+        "line": 659
+      },
+      {
+        "name": "spine_region_attachment_get_region",
+        "parameters": "(spine_region_attachment attachment)",
+        "doc": "// @optional",
+        "line": 662
+      },
+      {
+        "name": "spine_region_attachment_get_sequence",
+        "parameters": "(spine_region_attachment attachment)",
+        "doc": "// @optional",
+        "line": 665
+      },
+      {
+        "name": "spine_region_attachment_get_num_offset",
+        "parameters": "(spine_region_attachment attachment)",
+        "doc": "// OMITTED setSequence()",
+        "line": 667
+      },
+      {
+        "name": "spine_region_attachment_get_offset",
+        "parameters": "(spine_region_attachment attachment)",
+        "doc": "",
+        "line": 668
+      },
+      {
+        "name": "spine_region_attachment_get_num_uvs",
+        "parameters": "(spine_region_attachment attachment)",
+        "doc": "",
+        "line": 669
+      },
+      {
+        "name": "spine_region_attachment_get_uvs",
+        "parameters": "(spine_region_attachment attachment)",
+        "doc": "",
+        "line": 670
+      }
+    ],
+    "fields": [],
+    "type": "struct"
+  },
+  {
+    "file": "../spine-runtimes/spine-cpp/spine-cpp-lite/spine-cpp-lite.h",
+    "line": 72,
+    "name": "spine_vertex_attachment",
+    "doc": "",
+    "methods": [
+      {
+        "name": "spine_vertex_attachment_get_world_vertices_length",
+        "parameters": "(spine_vertex_attachment attachment)",
+        "doc": "",
+        "line": 672
+      },
+      {
+        "name": "spine_vertex_attachment_compute_world_vertices",
+        "parameters": "(spine_vertex_attachment attachment, spine_slot slot, float *worldVertices)",
+        "doc": "// @ignore",
+        "line": 674
+      },
+      {
+        "name": "spine_vertex_attachment_get_num_bones",
+        "parameters": "(spine_vertex_attachment attachment)",
+        "doc": "// OMITTED getId()",
+        "line": 676
+      },
+      {
+        "name": "spine_vertex_attachment_get_bones",
+        "parameters": "(spine_vertex_attachment attachment)",
+        "doc": "",
+        "line": 677
+      },
+      {
+        "name": "spine_vertex_attachment_get_num_vertices",
+        "parameters": "(spine_vertex_attachment attachment)",
+        "doc": "",
+        "line": 678
+      },
+      {
+        "name": "spine_vertex_attachment_get_vertices",
+        "parameters": "(spine_vertex_attachment attachment)",
+        "doc": "",
+        "line": 679
+      },
+      {
+        "name": "spine_vertex_attachment_get_timeline_attachment",
+        "parameters": "(spine_vertex_attachment timelineAttachment)",
+        "doc": "// @optional",
+        "line": 681
+      },
+      {
+        "name": "spine_vertex_attachment_set_timeline_attachment",
+        "parameters": "(spine_vertex_attachment attachment, spine_attachment timelineAttachment)",
+        "doc": "",
+        "line": 682
+      }
+    ],
+    "fields": [],
+    "type": "struct"
+  },
+  {
+    "file": "../spine-runtimes/spine-cpp/spine-cpp-lite/spine-cpp-lite.h",
+    "line": 103,
+    "name": "spine_skeleton_drawable",
+    "doc": "",
+    "methods": [
+      {
+        "name": "spine_skeleton_drawable_create",
+        "parameters": "(spine_skeleton_data skeletonData)",
+        "doc": "// @ignore",
+        "line": 279
+      },
+      {
+        "name": "spine_skeleton_drawable_render",
+        "parameters": "(spine_skeleton_drawable drawable)",
+        "doc": "// @ignore",
+        "line": 281
+      },
+      {
+        "name": "spine_skeleton_drawable_dispose",
+        "parameters": "(spine_skeleton_drawable drawable)",
+        "doc": "",
+        "line": 282
+      },
+      {
+        "name": "spine_skeleton_drawable_get_skeleton",
+        "parameters": "(spine_skeleton_drawable drawable)",
+        "doc": "",
+        "line": 283
+      },
+      {
+        "name": "spine_skeleton_drawable_get_animation_state",
+        "parameters": "(spine_skeleton_drawable drawable)",
+        "doc": "",
+        "line": 284
+      },
+      {
+        "name": "spine_skeleton_drawable_get_animation_state_data",
+        "parameters": "(spine_skeleton_drawable drawable)",
+        "doc": "",
+        "line": 285
+      },
+      {
+        "name": "spine_skeleton_drawable_get_animation_state_events",
+        "parameters": "(spine_skeleton_drawable drawable)",
+        "doc": "",
+        "line": 286
+      }
+    ],
+    "fields": [],
+    "type": "struct"
+  },
+  {
+    "file": "../spine-runtimes/spine-cpp/spine-cpp-lite/spine-cpp-lite.h",
+    "line": 77,
+    "name": "spine_point_attachment",
+    "doc": "",
+    "methods": [
+      {
+        "name": "spine_point_attachment_compute_world_position",
+        "parameters": "(spine_point_attachment attachment, spine_bone bone)",
+        "doc": "",
+        "line": 629
+      },
+      {
+        "name": "spine_point_attachment_compute_world_rotation",
+        "parameters": "(spine_point_attachment attachment, spine_bone bone)",
+        "doc": "",
+        "line": 630
+      },
+      {
+        "name": "spine_point_attachment_get_x",
+        "parameters": "(spine_point_attachment attachment)",
+        "doc": "",
+        "line": 631
+      },
+      {
+        "name": "spine_point_attachment_set_x",
+        "parameters": "(spine_point_attachment attachment, float x)",
+        "doc": "",
+        "line": 632
+      },
+      {
+        "name": "spine_point_attachment_get_y",
+        "parameters": "(spine_point_attachment attachment)",
+        "doc": "",
+        "line": 633
+      },
+      {
+        "name": "spine_point_attachment_set_y",
+        "parameters": "(spine_point_attachment attachment, float y)",
+        "doc": "",
+        "line": 634
+      },
+      {
+        "name": "spine_point_attachment_get_rotation",
+        "parameters": "(spine_point_attachment attachment)",
+        "doc": "",
+        "line": 635
+      },
+      {
+        "name": "spine_point_attachment_set_rotation",
+        "parameters": "(spine_point_attachment attachment, float rotation)",
+        "doc": "",
+        "line": 636
+      },
+      {
+        "name": "spine_point_attachment_get_color",
+        "parameters": "(spine_point_attachment attachment)",
+        "doc": "",
+        "line": 637
+      },
+      {
+        "name": "spine_point_attachment_set_color",
+        "parameters": "(spine_point_attachment attachment, float r, float g, float b, float a)",
+        "doc": "",
+        "line": 638
+      }
+    ],
+    "fields": [],
+    "type": "struct"
+  },
+  {
+    "file": "../spine-runtimes/spine-cpp/spine-cpp-lite/spine-cpp-lite.h",
+    "line": 73,
+    "name": "spine_mesh_attachment",
+    "doc": "",
+    "methods": [
+      {
+        "name": "spine_mesh_attachment_update_region",
+        "parameters": "(spine_mesh_attachment attachment)",
+        "doc": "// OMITTED copyTo()",
+        "line": 685
+      },
+      {
+        "name": "spine_mesh_attachment_get_hull_length",
+        "parameters": "(spine_mesh_attachment attachment)",
+        "doc": "",
+        "line": 686
+      },
+      {
+        "name": "spine_mesh_attachment_set_hull_length",
+        "parameters": "(spine_mesh_attachment attachment, int32_t hullLength)",
+        "doc": "",
+        "line": 687
+      },
+      {
+        "name": "spine_mesh_attachment_get_num_region_uvs",
+        "parameters": "(spine_mesh_attachment attachment)",
+        "doc": "",
+        "line": 688
+      },
+      {
+        "name": "spine_mesh_attachment_get_region_uvs",
+        "parameters": "(spine_mesh_attachment attachment)",
+        "doc": "",
+        "line": 689
+      },
+      {
+        "name": "spine_mesh_attachment_get_num_uvs",
+        "parameters": "(spine_mesh_attachment attachment)",
+        "doc": "",
+        "line": 690
+      },
+      {
+        "name": "spine_mesh_attachment_get_uvs",
+        "parameters": "(spine_mesh_attachment attachment)",
+        "doc": "",
+        "line": 691
+      },
+      {
+        "name": "spine_mesh_attachment_get_num_triangles",
+        "parameters": "(spine_mesh_attachment attachment)",
+        "doc": "",
+        "line": 692
+      },
+      {
+        "name": "spine_mesh_attachment_get_triangles",
+        "parameters": "(spine_mesh_attachment attachment)",
+        "doc": "",
+        "line": 693
+      },
+      {
+        "name": "spine_mesh_attachment_get_color",
+        "parameters": "(spine_mesh_attachment attachment)",
+        "doc": "",
+        "line": 694
+      },
+      {
+        "name": "spine_mesh_attachment_set_color",
+        "parameters": "(spine_mesh_attachment attachment, float r, float g, float b, float a)",
+        "doc": "",
+        "line": 695
+      },
+      {
+        "name": "spine_mesh_attachment_get_path",
+        "parameters": "(spine_mesh_attachment attachment)",
+        "doc": "",
+        "line": 696
+      },
+      {
+        "name": "spine_mesh_attachment_get_region",
+        "parameters": "(spine_mesh_attachment attachment)",
+        "doc": "// OMITTED setPath()",
+        "line": 698
+      },
+      {
+        "name": "spine_mesh_attachment_get_sequence",
+        "parameters": "(spine_mesh_attachment attachment)",
+        "doc": "// @optional",
+        "line": 701
+      },
+      {
+        "name": "spine_mesh_attachment_get_parent_mesh",
+        "parameters": "(spine_mesh_attachment attachment)",
+        "doc": "// @optional",
+        "line": 704
+      },
+      {
+        "name": "spine_mesh_attachment_set_parent_mesh",
+        "parameters": "(spine_mesh_attachment attachment, spine_mesh_attachment parentMesh)",
+        "doc": "",
+        "line": 705
+      },
+      {
+        "name": "spine_mesh_attachment_get_num_edges",
+        "parameters": "(spine_mesh_attachment attachment)",
+        "doc": "",
+        "line": 706
+      },
+      {
+        "name": "spine_mesh_attachment_get_edges",
+        "parameters": "(spine_mesh_attachment attachment)",
+        "doc": "",
+        "line": 707
+      },
+      {
+        "name": "spine_mesh_attachment_get_width",
+        "parameters": "(spine_mesh_attachment attachment)",
+        "doc": "",
+        "line": 708
+      },
+      {
+        "name": "spine_mesh_attachment_set_width",
+        "parameters": "(spine_mesh_attachment attachment, float width)",
+        "doc": "",
+        "line": 709
+      },
+      {
+        "name": "spine_mesh_attachment_get_height",
+        "parameters": "(spine_mesh_attachment attachment)",
+        "doc": "",
+        "line": 710
+      },
+      {
+        "name": "spine_mesh_attachment_set_height",
+        "parameters": "(spine_mesh_attachment attachment, float height)",
+        "doc": "",
+        "line": 711
+      }
+    ],
+    "fields": [],
+    "type": "struct"
+  },
+  {
+    "file": "../spine-runtimes/spine-cpp/spine-cpp-lite/spine-cpp-lite.h",
+    "line": 76,
+    "name": "spine_path_attachment",
+    "doc": "",
+    "methods": [
+      {
+        "name": "spine_path_attachment_get_num_lengths",
+        "parameters": "(spine_path_attachment attachment)",
+        "doc": "",
+        "line": 723
+      },
+      {
+        "name": "spine_path_attachment_get_lengths",
+        "parameters": "(spine_path_attachment attachment)",
+        "doc": "",
+        "line": 724
+      },
+      {
+        "name": "spine_path_attachment_get_is_closed",
+        "parameters": "(spine_path_attachment attachment)",
+        "doc": "",
+        "line": 725
+      },
+      {
+        "name": "spine_path_attachment_set_is_closed",
+        "parameters": "(spine_path_attachment attachment, spine_bool isClosed)",
+        "doc": "",
+        "line": 726
+      },
+      {
+        "name": "spine_path_attachment_get_is_constant_speed",
+        "parameters": "(spine_path_attachment attachment)",
+        "doc": "",
+        "line": 727
+      },
+      {
+        "name": "spine_path_attachment_set_is_constant_speed",
+        "parameters": "(spine_path_attachment attachment, spine_bool isConstantSpeed)",
+        "doc": "",
+        "line": 728
+      },
+      {
+        "name": "spine_path_attachment_get_color",
+        "parameters": "(spine_path_attachment attachment)",
+        "doc": "",
+        "line": 729
+      },
+      {
+        "name": "spine_path_attachment_set_color",
+        "parameters": "(spine_path_attachment attachment, float r, float g, float b, float a)",
+        "doc": "",
+        "line": 730
+      }
+    ],
+    "fields": [],
+    "type": "struct"
+  },
+  {
+    "file": "../spine-runtimes/spine-cpp/spine-cpp-lite/spine-cpp-lite.h",
+    "line": 81,
+    "name": "spine_constraint_data",
+    "doc": "",
+    "methods": [
+      {
+        "name": "spine_constraint_data_get_type",
+        "parameters": "(spine_constraint_data data)",
+        "doc": "",
+        "line": 757
+      },
+      {
+        "name": "spine_constraint_data_get_name",
+        "parameters": "(spine_constraint_data data)",
+        "doc": "",
+        "line": 758
+      },
+      {
+        "name": "spine_constraint_data_get_order",
+        "parameters": "(spine_constraint_data data)",
+        "doc": "",
+        "line": 759
+      },
+      {
+        "name": "spine_constraint_data_set_order",
+        "parameters": "(spine_constraint_data data, uint64_t order)",
+        "doc": "",
+        "line": 760
+      },
+      {
+        "name": "spine_constraint_data_get_is_skin_required",
+        "parameters": "(spine_constraint_data data)",
+        "doc": "",
+        "line": 761
+      },
+      {
+        "name": "spine_constraint_data_set_is_skin_required",
+        "parameters": "(spine_constraint_data data, spine_bool isSkinRequired)",
+        "doc": "",
+        "line": 762
+      }
+    ],
+    "fields": [],
+    "type": "struct"
+  },
+  {
+    "file": "../spine-runtimes/spine-cpp/spine-cpp-lite/spine-cpp-lite.h",
+    "line": 86,
+    "name": "spine_path_constraint",
+    "doc": "",
+    "methods": [
+      {
+        "name": "spine_path_constraint_update",
+        "parameters": "(spine_path_constraint constraint)",
+        "doc": "",
+        "line": 882
+      },
+      {
+        "name": "spine_path_constraint_get_order",
+        "parameters": "(spine_path_constraint constraint)",
+        "doc": "",
+        "line": 883
+      },
+      {
+        "name": "spine_path_constraint_get_data",
+        "parameters": "(spine_path_constraint constraint)",
+        "doc": "",
+        "line": 884
+      },
+      {
+        "name": "spine_path_constraint_get_num_bones",
+        "parameters": "(spine_path_constraint constraint)",
+        "doc": "",
+        "line": 885
+      },
+      {
+        "name": "spine_path_constraint_get_bones",
+        "parameters": "(spine_path_constraint constraint)",
+        "doc": "",
+        "line": 886
+      },
+      {
+        "name": "spine_path_constraint_get_target",
+        "parameters": "(spine_path_constraint constraint)",
+        "doc": "",
+        "line": 887
+      },
+      {
+        "name": "spine_path_constraint_set_target",
+        "parameters": "(spine_path_constraint constraint, spine_slot target)",
+        "doc": "",
+        "line": 888
+      },
+      {
+        "name": "spine_path_constraint_get_position",
+        "parameters": "(spine_path_constraint constraint)",
+        "doc": "",
+        "line": 889
+      },
+      {
+        "name": "spine_path_constraint_set_position",
+        "parameters": "(spine_path_constraint constraint, float position)",
+        "doc": "",
+        "line": 890
+      },
+      {
+        "name": "spine_path_constraint_get_spacing",
+        "parameters": "(spine_path_constraint constraint)",
+        "doc": "",
+        "line": 891
+      },
+      {
+        "name": "spine_path_constraint_set_spacing",
+        "parameters": "(spine_path_constraint constraint, float spacing)",
+        "doc": "",
+        "line": 892
+      },
+      {
+        "name": "spine_path_constraint_get_mix_rotate",
+        "parameters": "(spine_path_constraint constraint)",
+        "doc": "",
+        "line": 893
+      },
+      {
+        "name": "spine_path_constraint_set_mix_rotate",
+        "parameters": "(spine_path_constraint constraint, float mixRotate)",
+        "doc": "",
+        "line": 894
+      },
+      {
+        "name": "spine_path_constraint_get_mix_x",
+        "parameters": "(spine_path_constraint constraint)",
+        "doc": "",
+        "line": 895
+      },
+      {
+        "name": "spine_path_constraint_set_mix_x",
+        "parameters": "(spine_path_constraint constraint, float mixX)",
+        "doc": "",
+        "line": 896
+      },
+      {
+        "name": "spine_path_constraint_get_mix_y",
+        "parameters": "(spine_path_constraint constraint)",
+        "doc": "",
+        "line": 897
+      },
+      {
+        "name": "spine_path_constraint_set_mix_y",
+        "parameters": "(spine_path_constraint constraint, float mixY)",
+        "doc": "",
+        "line": 898
+      },
+      {
+        "name": "spine_path_constraint_get_is_active",
+        "parameters": "(spine_path_constraint constraint)",
+        "doc": "",
+        "line": 899
+      },
+      {
+        "name": "spine_path_constraint_set_is_active",
+        "parameters": "(spine_path_constraint constraint, spine_bool isActive)",
+        "doc": "",
+        "line": 900
+      }
+    ],
+    "fields": [],
+    "type": "struct"
+  },
+  {
+    "file": "../spine-runtimes/spine-cpp/spine-cpp-lite/spine-cpp-lite.h",
+    "line": 90,
+    "name": "spine_animation_state",
+    "doc": "",
+    "methods": [
+      {
+        "name": "spine_animation_state_update",
+        "parameters": "(spine_animation_state state, float delta)",
+        "doc": "",
+        "line": 316
+      },
+      {
+        "name": "spine_animation_state_apply",
+        "parameters": "(spine_animation_state state, spine_skeleton skeleton)",
+        "doc": "",
+        "line": 317
+      },
+      {
+        "name": "spine_animation_state_clear_tracks",
+        "parameters": "(spine_animation_state state)",
+        "doc": "",
+        "line": 318
+      },
+      {
+        "name": "spine_animation_state_clear_track",
+        "parameters": "(spine_animation_state state, int32_t trackIndex)",
+        "doc": "",
+        "line": 319
+      },
+      {
+        "name": "spine_animation_state_get_num_tracks",
+        "parameters": "(spine_animation_state state)",
+        "doc": "",
+        "line": 320
+      },
+      {
+        "name": "spine_animation_state_set_animation_by_name",
+        "parameters": "(spine_animation_state state, int32_t trackIndex, const utf8 *animationName, spine_bool loop)",
+        "doc": "",
+        "line": 321
+      },
+      {
+        "name": "spine_animation_state_set_animation",
+        "parameters": "(spine_animation_state state, int32_t trackIndex, spine_animation animation, spine_bool loop)",
+        "doc": "",
+        "line": 322
+      },
+      {
+        "name": "spine_animation_state_add_animation_by_name",
+        "parameters": "(spine_animation_state state, int32_t trackIndex, const utf8 *animationName, spine_bool loop, float delay)",
+        "doc": "",
+        "line": 323
+      },
+      {
+        "name": "spine_animation_state_add_animation",
+        "parameters": "(spine_animation_state state, int32_t trackIndex, spine_animation animation, spine_bool loop, float delay)",
+        "doc": "",
+        "line": 324
+      },
+      {
+        "name": "spine_animation_state_set_empty_animation",
+        "parameters": "(spine_animation_state state, int32_t trackIndex, float mixDuration)",
+        "doc": "",
+        "line": 325
+      },
+      {
+        "name": "spine_animation_state_add_empty_animation",
+        "parameters": "(spine_animation_state state, int32_t trackIndex, float mixDuration, float delay)",
+        "doc": "",
+        "line": 326
+      },
+      {
+        "name": "spine_animation_state_set_empty_animations",
+        "parameters": "(spine_animation_state state, float mixDuration)",
+        "doc": "",
+        "line": 327
+      },
+      {
+        "name": "spine_animation_state_get_current",
+        "parameters": "(spine_animation_state state, int32_t trackIndex)",
+        "doc": "// @optional",
+        "line": 329
+      },
+      {
+        "name": "spine_animation_state_get_data",
+        "parameters": "(spine_animation_state state)",
+        "doc": "",
+        "line": 330
+      },
+      {
+        "name": "spine_animation_state_get_time_scale",
+        "parameters": "(spine_animation_state state)",
+        "doc": "",
+        "line": 331
+      },
+      {
+        "name": "spine_animation_state_set_time_scale",
+        "parameters": "(spine_animation_state state, float timeScale)",
+        "doc": "",
+        "line": 332
+      },
+      {
+        "name": "spine_animation_state_dispose_track_entry",
+        "parameters": "(spine_animation_state state, spine_track_entry entry)",
+        "doc": "// @ignore",
+        "line": 340
+      }
+    ],
+    "fields": [],
+    "type": "struct"
+  },
+  {
+    "file": "../spine-runtimes/spine-cpp/spine-cpp-lite/spine-cpp-lite.h",
+    "line": 136,
+    "name": "spine_attachment_type",
+    "doc": "",
+    "methods": [],
+    "fields": [
+      {
+        "line": 137,
+        "doc": "",
+        "name": "SPINE_ATTACHMENT_REGION",
+        "type": "",
+        "isEnumValue": true
+      },
+      {
+        "line": 138,
+        "doc": "",
+        "name": "SPINE_ATTACHMENT_MESH",
+        "type": "",
+        "isEnumValue": true
+      },
+      {
+        "line": 139,
+        "doc": "",
+        "name": "SPINE_ATTACHMENT_CLIPPING",
+        "type": "",
+        "isEnumValue": true
+      },
+      {
+        "line": 140,
+        "doc": "",
+        "name": "SPINE_ATTACHMENT_BOUNDING_BOX",
+        "type": "",
+        "isEnumValue": true
+      },
+      {
+        "line": 141,
+        "doc": "",
+        "name": "SPINE_ATTACHMENT_PATH",
+        "type": "",
+        "isEnumValue": true
+      },
+      {
+        "line": 142,
+        "doc": "",
+        "name": "SPINE_ATTACHMENT_POINT",
+        "type": "",
+        "isEnumValue": true
+      }
+    ],
+    "type": "enum"
+  },
+  {
+    "file": "../spine-runtimes/spine-cpp/spine-cpp-lite/spine-cpp-lite.h",
+    "line": 145,
+    "name": "spine_constraint_type",
+    "doc": "",
+    "methods": [],
+    "fields": [
+      {
+        "line": 146,
+        "doc": "",
+        "name": "SPINE_CONSTRAINT_IK",
+        "type": "",
+        "isEnumValue": true
+      },
+      {
+        "line": 147,
+        "doc": "",
+        "name": "SPINE_CONSTRAINT_TRANSFORM",
+        "type": "",
+        "isEnumValue": true
+      },
+      {
+        "line": 148,
+        "doc": "",
+        "name": "SPINE_CONSTRAINT_PATH",
+        "type": "",
+        "isEnumValue": true
+      }
+    ],
+    "type": "enum"
+  },
+  {
+    "file": "../spine-runtimes/spine-cpp/spine-cpp-lite/spine-cpp-lite.h",
+    "line": 78,
+    "name": "spine_texture_region",
+    "doc": "",
+    "methods": [
+      {
+        "name": "spine_texture_region_get_texture",
+        "parameters": "(spine_texture_region textureRegion)",
+        "doc": "",
+        "line": 1021
+      },
+      {
+        "name": "spine_texture_region_set_texture",
+        "parameters": "(spine_texture_region textureRegion, void *texture)",
+        "doc": "",
+        "line": 1022
+      },
+      {
+        "name": "spine_texture_region_get_u",
+        "parameters": "(spine_texture_region textureRegion)",
+        "doc": "",
+        "line": 1023
+      },
+      {
+        "name": "spine_texture_region_set_u",
+        "parameters": "(spine_texture_region textureRegion, float u)",
+        "doc": "",
+        "line": 1024
+      },
+      {
+        "name": "spine_texture_region_get_v",
+        "parameters": "(spine_texture_region textureRegion)",
+        "doc": "",
+        "line": 1025
+      },
+      {
+        "name": "spine_texture_region_set_v",
+        "parameters": "(spine_texture_region textureRegion, float v)",
+        "doc": "",
+        "line": 1026
+      },
+      {
+        "name": "spine_texture_region_get_u2",
+        "parameters": "(spine_texture_region textureRegion)",
+        "doc": "",
+        "line": 1027
+      },
+      {
+        "name": "spine_texture_region_set_u2",
+        "parameters": "(spine_texture_region textureRegion, float u2)",
+        "doc": "",
+        "line": 1028
+      },
+      {
+        "name": "spine_texture_region_get_v2",
+        "parameters": "(spine_texture_region textureRegion)",
+        "doc": "",
+        "line": 1029
+      },
+      {
+        "name": "spine_texture_region_set_v2",
+        "parameters": "(spine_texture_region textureRegion, float v2)",
+        "doc": "",
+        "line": 1030
+      },
+      {
+        "name": "spine_texture_region_get_degrees",
+        "parameters": "(spine_texture_region textureRegion)",
+        "doc": "",
+        "line": 1031
+      },
+      {
+        "name": "spine_texture_region_set_degrees",
+        "parameters": "(spine_texture_region textureRegion, int32_t degrees)",
+        "doc": "",
+        "line": 1032
+      },
+      {
+        "name": "spine_texture_region_get_offset_x",
+        "parameters": "(spine_texture_region textureRegion)",
+        "doc": "",
+        "line": 1033
+      },
+      {
+        "name": "spine_texture_region_set_offset_x",
+        "parameters": "(spine_texture_region textureRegion, float offsetX)",
+        "doc": "",
+        "line": 1034
+      },
+      {
+        "name": "spine_texture_region_get_offset_y",
+        "parameters": "(spine_texture_region textureRegion)",
+        "doc": "",
+        "line": 1035
+      },
+      {
+        "name": "spine_texture_region_set_offset_y",
+        "parameters": "(spine_texture_region textureRegion, float offsetY)",
+        "doc": "",
+        "line": 1036
+      },
+      {
+        "name": "spine_texture_region_get_width",
+        "parameters": "(spine_texture_region textureRegion)",
+        "doc": "",
+        "line": 1037
+      },
+      {
+        "name": "spine_texture_region_set_width",
+        "parameters": "(spine_texture_region textureRegion, int32_t width)",
+        "doc": "",
+        "line": 1038
+      },
+      {
+        "name": "spine_texture_region_get_height",
+        "parameters": "(spine_texture_region textureRegion)",
+        "doc": "",
+        "line": 1039
+      },
+      {
+        "name": "spine_texture_region_set_height",
+        "parameters": "(spine_texture_region textureRegion, int32_t height)",
+        "doc": "",
+        "line": 1040
+      },
+      {
+        "name": "spine_texture_region_get_original_width",
+        "parameters": "(spine_texture_region textureRegion)",
+        "doc": "",
+        "line": 1041
+      },
+      {
+        "name": "spine_texture_region_set_original_width",
+        "parameters": "(spine_texture_region textureRegion, int32_t originalWidth)",
+        "doc": "",
+        "line": 1042
+      },
+      {
+        "name": "spine_texture_region_get_original_height",
+        "parameters": "(spine_texture_region textureRegion)",
+        "doc": "",
+        "line": 1043
+      },
+      {
+        "name": "spine_texture_region_set_original_height",
+        "parameters": "(spine_texture_region textureRegion, int32_t originalHeight)",
+        "doc": "",
+        "line": 1044
+      }
+    ],
+    "fields": [],
+    "type": "struct"
+  },
+  {
+    "file": "../spine-runtimes/spine-cpp/spine-cpp-lite/spine-cpp-lite.h",
+    "line": 99,
+    "name": "spine_render_command",
+    "doc": "",
+    "methods": [
+      {
+        "name": "spine_render_command_get_positions",
+        "parameters": "(spine_render_command command)",
+        "doc": "",
+        "line": 289
+      },
+      {
+        "name": "spine_render_command_get_uvs",
+        "parameters": "(spine_render_command command)",
+        "doc": "",
+        "line": 291
+      },
+      {
+        "name": "spine_render_command_get_colors",
+        "parameters": "(spine_render_command command)",
+        "doc": "",
+        "line": 293
+      },
+      {
+        "name": "spine_render_command_get_num_vertices",
+        "parameters": "(spine_render_command command)",
+        "doc": "",
+        "line": 294
+      },
+      {
+        "name": "spine_render_command_get_indices",
+        "parameters": "(spine_render_command command)",
+        "doc": "",
+        "line": 295
+      },
+      {
+        "name": "spine_render_command_get_num_indices",
+        "parameters": "(spine_render_command command)",
+        "doc": "",
+        "line": 296
+      },
+      {
+        "name": "spine_render_command_get_atlas_page",
+        "parameters": "(spine_render_command command)",
+        "doc": "",
+        "line": 297
+      },
+      {
+        "name": "spine_render_command_get_blend_mode",
+        "parameters": "(spine_render_command command)",
+        "doc": "",
+        "line": 298
+      },
+      {
+        "name": "spine_render_command_get_next",
+        "parameters": "(spine_render_command command)",
+        "doc": "",
+        "line": 299
+      }
+    ],
+    "fields": [],
+    "type": "struct"
+  },
+  {
+    "file": "../spine-runtimes/spine-cpp/spine-cpp-lite/spine-cpp-lite.h",
+    "line": 64,
+    "name": "spine_skeleton_data",
+    "doc": "",
+    "methods": [
+      {
+        "name": "spine_skeleton_data_load_json",
+        "parameters": "(spine_atlas atlas, const utf8 *skeletonData)",
+        "doc": "// @ignore",
+        "line": 217
+      },
+      {
+        "name": "spine_skeleton_data_load_binary",
+        "parameters": "(spine_atlas atlas, const uint8_t *skeletonData, int32_t length)",
+        "doc": "// @ignore",
+        "line": 219
+      },
+      {
+        "name": "spine_skeleton_data_find_bone",
+        "parameters": "(spine_skeleton_data data, const utf8 *name)",
+        "doc": "",
+        "line": 223
+      },
+      {
+        "name": "spine_skeleton_data_find_slot",
+        "parameters": "(spine_skeleton_data data, const utf8 *name)",
+        "doc": "",
+        "line": 224
+      },
+      {
+        "name": "spine_skeleton_data_find_skin",
+        "parameters": "(spine_skeleton_data data, const utf8 *name)",
+        "doc": "",
+        "line": 225
+      },
+      {
+        "name": "spine_skeleton_data_find_event",
+        "parameters": "(spine_skeleton_data data, const utf8 *name)",
+        "doc": "",
+        "line": 226
+      },
+      {
+        "name": "spine_skeleton_data_find_animation",
+        "parameters": "(spine_skeleton_data data, const utf8 *name)",
+        "doc": "",
+        "line": 227
+      },
+      {
+        "name": "spine_skeleton_data_find_ik_constraint",
+        "parameters": "(spine_skeleton_data data, const utf8 *name)",
+        "doc": "",
+        "line": 228
+      },
+      {
+        "name": "spine_skeleton_data_find_transform_constraint",
+        "parameters": "(spine_skeleton_data data, const utf8 *name)",
+        "doc": "",
+        "line": 229
+      },
+      {
+        "name": "spine_skeleton_data_find_path_constraint",
+        "parameters": "(spine_skeleton_data data, const utf8 *name)",
+        "doc": "",
+        "line": 230
+      },
+      {
+        "name": "spine_skeleton_data_find_physics_constraint",
+        "parameters": "(spine_skeleton_data data, const utf8 *name)",
+        "doc": "",
+        "line": 231
+      },
+      {
+        "name": "spine_skeleton_data_get_name",
+        "parameters": "(spine_skeleton_data data)",
+        "doc": "",
+        "line": 233
+      },
+      {
+        "name": "spine_skeleton_data_get_num_bones",
+        "parameters": "(spine_skeleton_data data)",
+        "doc": "// OMITTED setName()",
+        "line": 235
+      },
+      {
+        "name": "spine_skeleton_data_get_bones",
+        "parameters": "(spine_skeleton_data data)",
+        "doc": "",
+        "line": 236
+      },
+      {
+        "name": "spine_skeleton_data_get_num_slots",
+        "parameters": "(spine_skeleton_data data)",
+        "doc": "",
+        "line": 237
+      },
+      {
+        "name": "spine_skeleton_data_get_slots",
+        "parameters": "(spine_skeleton_data data)",
+        "doc": "",
+        "line": 238
+      },
+      {
+        "name": "spine_skeleton_data_get_num_skins",
+        "parameters": "(spine_skeleton_data data)",
+        "doc": "",
+        "line": 239
+      },
+      {
+        "name": "spine_skeleton_data_get_skins",
+        "parameters": "(spine_skeleton_data data)",
+        "doc": "",
+        "line": 240
+      },
+      {
+        "name": "spine_skeleton_data_get_default_skin",
+        "parameters": "(spine_skeleton_data data)",
+        "doc": "// @optional",
+        "line": 242
+      },
+      {
+        "name": "spine_skeleton_data_set_default_skin",
+        "parameters": "(spine_skeleton_data data, spine_skin skin)",
+        "doc": "",
+        "line": 243
+      },
+      {
+        "name": "spine_skeleton_data_get_num_events",
+        "parameters": "(spine_skeleton_data data)",
+        "doc": "",
+        "line": 244
+      },
+      {
+        "name": "spine_skeleton_data_get_events",
+        "parameters": "(spine_skeleton_data data)",
+        "doc": "",
+        "line": 245
+      },
+      {
+        "name": "spine_skeleton_data_get_num_animations",
+        "parameters": "(spine_skeleton_data data)",
+        "doc": "",
+        "line": 246
+      },
+      {
+        "name": "spine_skeleton_data_get_animations",
+        "parameters": "(spine_skeleton_data data)",
+        "doc": "",
+        "line": 247
+      },
+      {
+        "name": "spine_skeleton_data_get_num_ik_constraints",
+        "parameters": "(spine_skeleton_data data)",
+        "doc": "",
+        "line": 248
+      },
+      {
+        "name": "spine_skeleton_data_get_ik_constraints",
+        "parameters": "(spine_skeleton_data data)",
+        "doc": "",
+        "line": 249
+      },
+      {
+        "name": "spine_skeleton_data_get_num_transform_constraints",
+        "parameters": "(spine_skeleton_data data)",
+        "doc": "",
+        "line": 250
+      },
+      {
+        "name": "spine_skeleton_data_get_transform_constraints",
+        "parameters": "(spine_skeleton_data data)",
+        "doc": "",
+        "line": 251
+      },
+      {
+        "name": "spine_skeleton_data_get_num_path_constraints",
+        "parameters": "(spine_skeleton_data data)",
+        "doc": "",
+        "line": 252
+      },
+      {
+        "name": "spine_skeleton_data_get_path_constraints",
+        "parameters": "(spine_skeleton_data data)",
+        "doc": "",
+        "line": 253
+      },
+      {
+        "name": "spine_skeleton_data_get_num_physics_constraints",
+        "parameters": "(spine_skeleton_data data)",
+        "doc": "",
+        "line": 254
+      },
+      {
+        "name": "spine_skeleton_data_get_physics_constraints",
+        "parameters": "(spine_skeleton_data data)",
+        "doc": "",
+        "line": 255
+      },
+      {
+        "name": "spine_skeleton_data_get_x",
+        "parameters": "(spine_skeleton_data data)",
+        "doc": "",
+        "line": 256
+      },
+      {
+        "name": "spine_skeleton_data_set_x",
+        "parameters": "(spine_skeleton_data data, float x)",
+        "doc": "",
+        "line": 257
+      },
+      {
+        "name": "spine_skeleton_data_get_y",
+        "parameters": "(spine_skeleton_data data)",
+        "doc": "",
+        "line": 258
+      },
+      {
+        "name": "spine_skeleton_data_set_y",
+        "parameters": "(spine_skeleton_data data, float y)",
+        "doc": "",
+        "line": 259
+      },
+      {
+        "name": "spine_skeleton_data_get_width",
+        "parameters": "(spine_skeleton_data data)",
+        "doc": "",
+        "line": 260
+      },
+      {
+        "name": "spine_skeleton_data_set_width",
+        "parameters": "(spine_skeleton_data data, float width)",
+        "doc": "",
+        "line": 261
+      },
+      {
+        "name": "spine_skeleton_data_get_height",
+        "parameters": "(spine_skeleton_data data)",
+        "doc": "",
+        "line": 262
+      },
+      {
+        "name": "spine_skeleton_data_set_height",
+        "parameters": "(spine_skeleton_data data, float height)",
+        "doc": "",
+        "line": 263
+      },
+      {
+        "name": "spine_skeleton_data_get_version",
+        "parameters": "(spine_skeleton_data data)",
+        "doc": "",
+        "line": 264
+      },
+      {
+        "name": "spine_skeleton_data_get_hash",
+        "parameters": "(spine_skeleton_data data)",
+        "doc": "",
+        "line": 267
+      },
+      {
+        "name": "spine_skeleton_data_get_images_path",
+        "parameters": "(spine_skeleton_data data)",
+        "doc": "",
+        "line": 269
+      },
+      {
+        "name": "spine_skeleton_data_get_audio_path",
+        "parameters": "(spine_skeleton_data data)",
+        "doc": "",
+        "line": 271
+      },
+      {
+        "name": "spine_skeleton_data_get_fps",
+        "parameters": "(spine_skeleton_data data)",
+        "doc": "// OMITTED setAudioPath()",
+        "line": 273
+      },
+      {
+        "name": "spine_skeleton_data_get_reference_scale",
+        "parameters": "(spine_skeleton_data data)",
+        "doc": "// OMITTED setFps()",
+        "line": 275
+      },
+      {
+        "name": "spine_skeleton_data_dispose",
+        "parameters": "(spine_skeleton_data data)",
+        "doc": "",
+        "line": 276
+      }
+    ],
+    "fields": [],
+    "type": "struct"
+  },
+  {
+    "file": "../spine-runtimes/spine-cpp/spine-cpp-lite/spine-cpp-lite.h",
+    "line": 82,
+    "name": "spine_ik_constraint",
+    "doc": "",
+    "methods": [
+      {
+        "name": "spine_ik_constraint_update",
+        "parameters": "(spine_ik_constraint constraint)",
+        "doc": "",
+        "line": 781
+      },
+      {
+        "name": "spine_ik_constraint_get_order",
+        "parameters": "(spine_ik_constraint constraint)",
+        "doc": "",
+        "line": 782
+      },
+      {
+        "name": "spine_ik_constraint_get_data",
+        "parameters": "(spine_ik_constraint constraint)",
+        "doc": "",
+        "line": 783
+      },
+      {
+        "name": "spine_ik_constraint_get_num_bones",
+        "parameters": "(spine_ik_constraint constraint)",
+        "doc": "",
+        "line": 784
+      },
+      {
+        "name": "spine_ik_constraint_get_bones",
+        "parameters": "(spine_ik_constraint constraint)",
+        "doc": "",
+        "line": 785
+      },
+      {
+        "name": "spine_ik_constraint_get_target",
+        "parameters": "(spine_ik_constraint constraint)",
+        "doc": "",
+        "line": 786
+      },
+      {
+        "name": "spine_ik_constraint_set_target",
+        "parameters": "(spine_ik_constraint constraint, spine_bone target)",
+        "doc": "",
+        "line": 787
+      },
+      {
+        "name": "spine_ik_constraint_get_bend_direction",
+        "parameters": "(spine_ik_constraint constraint)",
+        "doc": "",
+        "line": 788
+      },
+      {
+        "name": "spine_ik_constraint_set_bend_direction",
+        "parameters": "(spine_ik_constraint constraint, int32_t bendDirection)",
+        "doc": "",
+        "line": 789
+      },
+      {
+        "name": "spine_ik_constraint_get_compress",
+        "parameters": "(spine_ik_constraint constraint)",
+        "doc": "",
+        "line": 790
+      },
+      {
+        "name": "spine_ik_constraint_set_compress",
+        "parameters": "(spine_ik_constraint constraint, spine_bool compress)",
+        "doc": "",
+        "line": 791
+      },
+      {
+        "name": "spine_ik_constraint_get_stretch",
+        "parameters": "(spine_ik_constraint constraint)",
+        "doc": "",
+        "line": 792
+      },
+      {
+        "name": "spine_ik_constraint_set_stretch",
+        "parameters": "(spine_ik_constraint constraint, spine_bool stretch)",
+        "doc": "",
+        "line": 793
+      },
+      {
+        "name": "spine_ik_constraint_get_mix",
+        "parameters": "(spine_ik_constraint constraint)",
+        "doc": "",
+        "line": 794
+      },
+      {
+        "name": "spine_ik_constraint_set_mix",
+        "parameters": "(spine_ik_constraint constraint, float mix)",
+        "doc": "",
+        "line": 795
+      },
+      {
+        "name": "spine_ik_constraint_get_softness",
+        "parameters": "(spine_ik_constraint constraint)",
+        "doc": "",
+        "line": 796
+      },
+      {
+        "name": "spine_ik_constraint_set_softness",
+        "parameters": "(spine_ik_constraint constraint, float softness)",
+        "doc": "",
+        "line": 797
+      },
+      {
+        "name": "spine_ik_constraint_get_is_active",
+        "parameters": "(spine_ik_constraint constraint)",
+        "doc": "",
+        "line": 798
+      },
+      {
+        "name": "spine_ik_constraint_set_is_active",
+        "parameters": "(spine_ik_constraint constraint, spine_bool isActive)",
+        "doc": "",
+        "line": 799
+      }
+    ],
+    "fields": [],
+    "type": "struct"
+  },
+  {
+    "file": "../spine-runtimes/spine-cpp/spine-cpp-lite/spine-cpp-lite.h",
+    "line": 159,
+    "name": "spine_position_mode",
+    "doc": "",
+    "methods": [],
+    "fields": [
+      {
+        "line": 160,
+        "doc": "",
+        "name": "SPINE_POSITION_MODE_FIXED",
+        "type": "",
+        "isEnumValue": true
+      },
+      {
+        "line": 161,
+        "doc": "",
+        "name": "SPINE_POSITION_MODE_PERCENT",
+        "type": "",
+        "isEnumValue": true
+      }
+    ],
+    "type": "enum"
+  },
+  {
+    "file": "../spine-runtimes/spine-cpp/spine-cpp-lite/spine-cpp-lite.h",
+    "line": 105,
+    "name": "spine_skin_entries",
+    "doc": "",
+    "methods": [
+      {
+        "name": "spine_skin_entries_get_num_entries",
+        "parameters": "(spine_skin_entries entries)",
+        "doc": "",
+        "line": 743
+      },
+      {
+        "name": "spine_skin_entries_get_entry",
+        "parameters": "(spine_skin_entries entries, int32_t index)",
+        "doc": "",
+        "line": 744
+      },
+      {
+        "name": "spine_skin_entries_dispose",
+        "parameters": "(spine_skin_entries entries)",
+        "doc": "",
+        "line": 745
+      }
+    ],
+    "fields": [],
+    "type": "struct"
+  },
+  {
+    "file": "../spine-runtimes/spine-cpp/spine-cpp-lite/spine-cpp-lite.h",
+    "line": 164,
+    "name": "spine_spacing_mode",
+    "doc": "",
+    "methods": [],
+    "fields": [
+      {
+        "line": 165,
+        "doc": "",
+        "name": "SPINE_SPACING_MODE_LENGTH",
+        "type": "",
+        "isEnumValue": true
+      },
+      {
+        "line": 166,
+        "doc": "",
+        "name": "SPINE_SPACING_MODE_FIXED",
+        "type": "",
+        "isEnumValue": true
+      },
+      {
+        "line": 167,
+        "doc": "",
+        "name": "SPINE_SPACING_MODE_PERCENT",
+        "type": "",
+        "isEnumValue": true
+      },
+      {
+        "line": 168,
+        "doc": "",
+        "name": "SPINE_SPACING_MODE_PROPORTIONAL",
+        "type": "",
+        "isEnumValue": true
+      }
+    ],
+    "type": "enum"
+  },
+  {
+    "file": "../spine-runtimes/spine-cpp/spine-cpp-lite/spine-cpp-lite.h",
+    "line": 95,
+    "name": "spine_track_entry",
+    "doc": "",
+    "methods": [
+      {
+        "name": "spine_track_entry_get_track_index",
+        "parameters": "(spine_track_entry entry)",
+        "doc": "",
+        "line": 349
+      },
+      {
+        "name": "spine_track_entry_get_animation",
+        "parameters": "(spine_track_entry entry)",
+        "doc": "",
+        "line": 350
+      },
+      {
+        "name": "spine_track_entry_get_previous",
+        "parameters": "(spine_track_entry entry)",
+        "doc": "",
+        "line": 351
+      },
+      {
+        "name": "spine_track_entry_get_loop",
+        "parameters": "(spine_track_entry entry)",
+        "doc": "",
+        "line": 352
+      },
+      {
+        "name": "spine_track_entry_set_loop",
+        "parameters": "(spine_track_entry entry, spine_bool loop)",
+        "doc": "",
+        "line": 353
+      },
+      {
+        "name": "spine_track_entry_get_hold_previous",
+        "parameters": "(spine_track_entry entry)",
+        "doc": "",
+        "line": 354
+      },
+      {
+        "name": "spine_track_entry_set_hold_previous",
+        "parameters": "(spine_track_entry entry, spine_bool holdPrevious)",
+        "doc": "",
+        "line": 355
+      },
+      {
+        "name": "spine_track_entry_get_reverse",
+        "parameters": "(spine_track_entry entry)",
+        "doc": "",
+        "line": 356
+      },
+      {
+        "name": "spine_track_entry_set_reverse",
+        "parameters": "(spine_track_entry entry, spine_bool reverse)",
+        "doc": "",
+        "line": 357
+      },
+      {
+        "name": "spine_track_entry_get_shortest_rotation",
+        "parameters": "(spine_track_entry entry)",
+        "doc": "",
+        "line": 358
+      },
+      {
+        "name": "spine_track_entry_set_shortest_rotation",
+        "parameters": "(spine_track_entry entry, spine_bool shortestRotation)",
+        "doc": "",
+        "line": 359
+      },
+      {
+        "name": "spine_track_entry_get_delay",
+        "parameters": "(spine_track_entry entry)",
+        "doc": "",
+        "line": 360
+      },
+      {
+        "name": "spine_track_entry_set_delay",
+        "parameters": "(spine_track_entry entry, float delay)",
+        "doc": "",
+        "line": 361
+      },
+      {
+        "name": "spine_track_entry_get_track_time",
+        "parameters": "(spine_track_entry entry)",
+        "doc": "",
+        "line": 362
+      },
+      {
+        "name": "spine_track_entry_set_track_time",
+        "parameters": "(spine_track_entry entry, float trackTime)",
+        "doc": "",
+        "line": 363
+      },
+      {
+        "name": "spine_track_entry_get_track_end",
+        "parameters": "(spine_track_entry entry)",
+        "doc": "",
+        "line": 364
+      },
+      {
+        "name": "spine_track_entry_set_track_end",
+        "parameters": "(spine_track_entry entry, float trackEnd)",
+        "doc": "",
+        "line": 365
+      },
+      {
+        "name": "spine_track_entry_get_animation_start",
+        "parameters": "(spine_track_entry entry)",
+        "doc": "",
+        "line": 366
+      },
+      {
+        "name": "spine_track_entry_set_animation_start",
+        "parameters": "(spine_track_entry entry, float animationStart)",
+        "doc": "",
+        "line": 367
+      },
+      {
+        "name": "spine_track_entry_get_animation_end",
+        "parameters": "(spine_track_entry entry)",
+        "doc": "",
+        "line": 368
+      },
+      {
+        "name": "spine_track_entry_set_animation_end",
+        "parameters": "(spine_track_entry entry, float animationEnd)",
+        "doc": "",
+        "line": 369
+      },
+      {
+        "name": "spine_track_entry_get_animation_last",
+        "parameters": "(spine_track_entry entry)",
+        "doc": "",
+        "line": 370
+      },
+      {
+        "name": "spine_track_entry_set_animation_last",
+        "parameters": "(spine_track_entry entry, float animationLast)",
+        "doc": "",
+        "line": 371
+      },
+      {
+        "name": "spine_track_entry_get_animation_time",
+        "parameters": "(spine_track_entry entry)",
+        "doc": "",
+        "line": 372
+      },
+      {
+        "name": "spine_track_entry_get_time_scale",
+        "parameters": "(spine_track_entry entry)",
+        "doc": "",
+        "line": 373
+      },
+      {
+        "name": "spine_track_entry_set_time_scale",
+        "parameters": "(spine_track_entry entry, float timeScale)",
+        "doc": "",
+        "line": 374
+      },
+      {
+        "name": "spine_track_entry_get_alpha",
+        "parameters": "(spine_track_entry entry)",
+        "doc": "",
+        "line": 375
+      },
+      {
+        "name": "spine_track_entry_set_alpha",
+        "parameters": "(spine_track_entry entry, float alpha)",
+        "doc": "",
+        "line": 376
+      },
+      {
+        "name": "spine_track_entry_get_event_threshold",
+        "parameters": "(spine_track_entry entry)",
+        "doc": "",
+        "line": 377
+      },
+      {
+        "name": "spine_track_entry_set_event_threshold",
+        "parameters": "(spine_track_entry entry, float eventThreshold)",
+        "doc": "",
+        "line": 378
+      },
+      {
+        "name": "spine_track_entry_get_alpha_attachment_threshold",
+        "parameters": "(spine_track_entry entry)",
+        "doc": "",
+        "line": 379
+      },
+      {
+        "name": "spine_track_entry_set_alpha_attachment_threshold",
+        "parameters": "(spine_track_entry entry, float attachmentThreshold)",
+        "doc": "",
+        "line": 380
+      },
+      {
+        "name": "spine_track_entry_get_mix_attachment_threshold",
+        "parameters": "(spine_track_entry entry)",
+        "doc": "",
+        "line": 381
+      },
+      {
+        "name": "spine_track_entry_set_mix_attachment_threshold",
+        "parameters": "(spine_track_entry entry, float attachmentThreshold)",
+        "doc": "",
+        "line": 382
+      },
+      {
+        "name": "spine_track_entry_get_mix_draw_order_threshold",
+        "parameters": "(spine_track_entry entry)",
+        "doc": "",
+        "line": 383
+      },
+      {
+        "name": "spine_track_entry_set_mix_draw_order_threshold",
+        "parameters": "(spine_track_entry entry, float drawOrderThreshold)",
+        "doc": "",
+        "line": 384
+      },
+      {
+        "name": "spine_track_entry_get_next",
+        "parameters": "(spine_track_entry entry)",
+        "doc": "// @optional",
+        "line": 386
+      },
+      {
+        "name": "spine_track_entry_is_complete",
+        "parameters": "(spine_track_entry entry)",
+        "doc": "",
+        "line": 387
+      },
+      {
+        "name": "spine_track_entry_get_mix_time",
+        "parameters": "(spine_track_entry entry)",
+        "doc": "",
+        "line": 388
+      },
+      {
+        "name": "spine_track_entry_set_mix_time",
+        "parameters": "(spine_track_entry entry, float mixTime)",
+        "doc": "",
+        "line": 389
+      },
+      {
+        "name": "spine_track_entry_get_mix_duration",
+        "parameters": "(spine_track_entry entry)",
+        "doc": "",
+        "line": 390
+      },
+      {
+        "name": "spine_track_entry_set_mix_duration",
+        "parameters": "(spine_track_entry entry, float mixDuration)",
+        "doc": "",
+        "line": 391
+      },
+      {
+        "name": "spine_track_entry_get_mix_blend",
+        "parameters": "(spine_track_entry entry)",
+        "doc": "",
+        "line": 392
+      },
+      {
+        "name": "spine_track_entry_set_mix_blend",
+        "parameters": "(spine_track_entry entry, spine_mix_blend mixBlend)",
+        "doc": "",
+        "line": 393
+      },
+      {
+        "name": "spine_track_entry_get_mixing_from",
+        "parameters": "(spine_track_entry entry)",
+        "doc": "// @optional",
+        "line": 395
+      },
+      {
+        "name": "spine_track_entry_get_mixing_to",
+        "parameters": "(spine_track_entry entry)",
+        "doc": "// @optional",
+        "line": 397
+      },
+      {
+        "name": "spine_track_entry_reset_rotation_directions",
+        "parameters": "(spine_track_entry entry)",
+        "doc": "",
+        "line": 398
+      },
+      {
+        "name": "spine_track_entry_get_track_complete",
+        "parameters": "(spine_track_entry entry)",
+        "doc": "",
+        "line": 399
+      },
+      {
+        "name": "spine_track_entry_was_applied",
+        "parameters": "(spine_track_entry entry)",
+        "doc": "",
+        "line": 400
+      },
+      {
+        "name": "spine_track_entry_is_next_ready",
+        "parameters": "(spine_track_entry entry)",
+        "doc": "",
+        "line": 401
+      }
+    ],
+    "fields": [],
+    "type": "struct"
+  },
+  {
+    "file": "../spine-runtimes/spine-cpp/spine-cpp-lite/spine-cpp-lite.h",
+    "line": 171,
+    "name": "spine_rotate_mode",
+    "doc": "",
+    "methods": [],
+    "fields": [
+      {
+        "line": 172,
+        "doc": "",
+        "name": "SPINE_ROTATE_MODE_TANGENT",
+        "type": "",
+        "isEnumValue": true
+      },
+      {
+        "line": 173,
+        "doc": "",
+        "name": "SPINE_ROTATE_MODE_CHAIN",
+        "type": "",
+        "isEnumValue": true
+      },
+      {
+        "line": 174,
+        "doc": "",
+        "name": "SPINE_ROTATE_MODE_CHAIN_SCALE",
+        "type": "",
+        "isEnumValue": true
+      }
+    ],
+    "type": "enum"
+  },
+  {
+    "file": "../spine-runtimes/spine-cpp/spine-cpp-lite/spine-cpp-lite.h",
+    "line": 70,
+    "name": "spine_attachment",
+    "doc": "",
+    "methods": [
+      {
+        "name": "spine_attachment_get_name",
+        "parameters": "(spine_attachment attachment)",
+        "doc": "",
+        "line": 623
+      },
+      {
+        "name": "spine_attachment_get_type",
+        "parameters": "(spine_attachment attachment)",
+        "doc": "",
+        "line": 624
+      },
+      {
+        "name": "spine_attachment_copy",
+        "parameters": "(spine_attachment attachment)",
+        "doc": "// @ignore",
+        "line": 626
+      },
+      {
+        "name": "spine_attachment_dispose",
+        "parameters": "(spine_attachment attachment)",
+        "doc": "",
+        "line": 627
+      }
+    ],
+    "fields": [],
+    "type": "struct"
+  },
+  {
+    "file": "../spine-runtimes/spine-cpp/spine-cpp-lite/spine-cpp-lite.h",
+    "line": 80,
+    "name": "spine_constraint",
+    "doc": "",
+    "methods": [],
+    "fields": [],
+    "type": "struct"
+  },
+  {
+    "file": "../spine-runtimes/spine-cpp/spine-cpp-lite/spine-cpp-lite.h",
+    "line": 94,
+    "name": "spine_event_data",
+    "doc": "",
+    "methods": [
+      {
+        "name": "spine_event_data_get_name",
+        "parameters": "(spine_event_data event)",
+        "doc": "",
+        "line": 462
+      },
+      {
+        "name": "spine_event_data_get_int_value",
+        "parameters": "(spine_event_data event)",
+        "doc": "",
+        "line": 463
+      },
+      {
+        "name": "spine_event_data_set_int_value",
+        "parameters": "(spine_event_data event, int32_t value)",
+        "doc": "",
+        "line": 464
+      },
+      {
+        "name": "spine_event_data_get_float_value",
+        "parameters": "(spine_event_data event)",
+        "doc": "",
+        "line": 465
+      },
+      {
+        "name": "spine_event_data_set_float_value",
+        "parameters": "(spine_event_data event, float value)",
+        "doc": "",
+        "line": 466
+      },
+      {
+        "name": "spine_event_data_get_string_value",
+        "parameters": "(spine_event_data event)",
+        "doc": "",
+        "line": 467
+      },
+      {
+        "name": "spine_event_data_set_string_value",
+        "parameters": "(spine_event_data event, const utf8 *value)",
+        "doc": "",
+        "line": 468
+      },
+      {
+        "name": "spine_event_data_get_audio_path",
+        "parameters": "(spine_event_data event)",
+        "doc": "",
+        "line": 469
+      },
+      {
+        "name": "spine_event_data_get_volume",
+        "parameters": "(spine_event_data event)",
+        "doc": "// OMITTED setAudioPath()",
+        "line": 471
+      },
+      {
+        "name": "spine_event_data_set_volume",
+        "parameters": "(spine_event_data event, float volume)",
+        "doc": "",
+        "line": 472
+      },
+      {
+        "name": "spine_event_data_get_balance",
+        "parameters": "(spine_event_data event)",
+        "doc": "",
+        "line": 473
+      },
+      {
+        "name": "spine_event_data_set_balance",
+        "parameters": "(spine_event_data event, float balance)",
+        "doc": "",
+        "line": 474
+      }
+    ],
+    "fields": [],
+    "type": "struct"
+  },
+  {
+    "file": "../spine-runtimes/spine-cpp/spine-cpp-lite/spine-cpp-lite.h",
+    "line": 104,
+    "name": "spine_skin_entry",
+    "doc": "",
+    "methods": [
+      {
+        "name": "spine_skin_entry_get_slot_index",
+        "parameters": "(spine_skin_entry entry)",
+        "doc": "",
+        "line": 746
+      },
+      {
+        "name": "spine_skin_entry_get_name",
+        "parameters": "(spine_skin_entry entry)",
+        "doc": "",
+        "line": 747
+      },
+      {
+        "name": "spine_skin_entry_get_attachment",
+        "parameters": "(spine_skin_entry entry)",
+        "doc": "",
+        "line": 748
+      }
+    ],
+    "fields": [],
+    "type": "struct"
+  },
+  {
+    "file": "../spine-runtimes/spine-cpp/spine-cpp-lite/spine-cpp-lite.h",
+    "line": 113,
+    "name": "spine_blend_mode",
+    "doc": "",
+    "methods": [],
+    "fields": [
+      {
+        "line": 114,
+        "doc": "",
+        "name": "SPINE_BLEND_MODE_NORMAL",
+        "type": "",
+        "isEnumValue": true
+      },
+      {
+        "line": 115,
+        "doc": "",
+        "name": "SPINE_BLEND_MODE_ADDITIVE",
+        "type": "",
+        "isEnumValue": true
+      },
+      {
+        "line": 116,
+        "doc": "",
+        "name": "SPINE_BLEND_MODE_MULTIPLY",
+        "type": "",
+        "isEnumValue": true
+      },
+      {
+        "line": 117,
+        "doc": "",
+        "name": "SPINE_BLEND_MODE_SCREEN",
+        "type": "",
+        "isEnumValue": true
+      }
+    ],
+    "type": "enum"
+  },
+  {
+    "file": "../spine-runtimes/spine-cpp/spine-cpp-lite/spine-cpp-lite.h",
+    "line": 127,
+    "name": "spine_event_type",
+    "doc": "",
+    "methods": [],
+    "fields": [
+      {
+        "line": 128,
+        "doc": "",
+        "name": "SPINE_EVENT_TYPE_START",
+        "type": "",
+        "isEnumValue": true
+      },
+      {
+        "line": 129,
+        "doc": "",
+        "name": "SPINE_EVENT_TYPE_INTERRUPT",
+        "type": "",
+        "isEnumValue": true
+      },
+      {
+        "line": 130,
+        "doc": "",
+        "name": "SPINE_EVENT_TYPE_END",
+        "type": "",
+        "isEnumValue": true
+      },
+      {
+        "line": 131,
+        "doc": "",
+        "name": "SPINE_EVENT_TYPE_COMPLETE",
+        "type": "",
+        "isEnumValue": true
+      },
+      {
+        "line": 132,
+        "doc": "",
+        "name": "SPINE_EVENT_TYPE_DISPOSE",
+        "type": "",
+        "isEnumValue": true
+      },
+      {
+        "line": 133,
+        "doc": "",
+        "name": "SPINE_EVENT_TYPE_EVENT",
+        "type": "",
+        "isEnumValue": true
+      }
+    ],
+    "type": "enum"
+  },
+  {
+    "file": "../spine-runtimes/spine-cpp/spine-cpp-lite/spine-cpp-lite.h",
+    "line": 66,
+    "name": "spine_bone_data",
+    "doc": "",
+    "methods": [
+      {
+        "name": "spine_bone_data_get_index",
+        "parameters": "(spine_bone_data data)",
+        "doc": "",
+        "line": 522
+      },
+      {
+        "name": "spine_bone_data_get_name",
+        "parameters": "(spine_bone_data data)",
+        "doc": "",
+        "line": 523
+      },
+      {
+        "name": "spine_bone_data_get_parent",
+        "parameters": "(spine_bone_data data)",
+        "doc": "// @optional",
+        "line": 525
+      },
+      {
+        "name": "spine_bone_data_get_length",
+        "parameters": "(spine_bone_data data)",
+        "doc": "",
+        "line": 526
+      },
+      {
+        "name": "spine_bone_data_set_length",
+        "parameters": "(spine_bone_data data, float length)",
+        "doc": "",
+        "line": 527
+      },
+      {
+        "name": "spine_bone_data_get_x",
+        "parameters": "(spine_bone_data data)",
+        "doc": "",
+        "line": 528
+      },
+      {
+        "name": "spine_bone_data_set_x",
+        "parameters": "(spine_bone_data data, float x)",
+        "doc": "",
+        "line": 529
+      },
+      {
+        "name": "spine_bone_data_get_y",
+        "parameters": "(spine_bone_data data)",
+        "doc": "",
+        "line": 530
+      },
+      {
+        "name": "spine_bone_data_set_y",
+        "parameters": "(spine_bone_data data, float y)",
+        "doc": "",
+        "line": 531
+      },
+      {
+        "name": "spine_bone_data_get_rotation",
+        "parameters": "(spine_bone_data data)",
+        "doc": "",
+        "line": 532
+      },
+      {
+        "name": "spine_bone_data_set_rotation",
+        "parameters": "(spine_bone_data data, float rotation)",
+        "doc": "",
+        "line": 533
+      },
+      {
+        "name": "spine_bone_data_get_scale_x",
+        "parameters": "(spine_bone_data data)",
+        "doc": "",
+        "line": 534
+      },
+      {
+        "name": "spine_bone_data_set_scale_x",
+        "parameters": "(spine_bone_data data, float scaleX)",
+        "doc": "",
+        "line": 535
+      },
+      {
+        "name": "spine_bone_data_get_scale_y",
+        "parameters": "(spine_bone_data data)",
+        "doc": "",
+        "line": 536
+      },
+      {
+        "name": "spine_bone_data_set_scale_y",
+        "parameters": "(spine_bone_data data, float scaleY)",
+        "doc": "",
+        "line": 537
+      },
+      {
+        "name": "spine_bone_data_get_shear_x",
+        "parameters": "(spine_bone_data data)",
+        "doc": "",
+        "line": 538
+      },
+      {
+        "name": "spine_bone_data_set_shear_x",
+        "parameters": "(spine_bone_data data, float shearx)",
+        "doc": "",
+        "line": 539
+      },
+      {
+        "name": "spine_bone_data_get_shear_y",
+        "parameters": "(spine_bone_data data)",
+        "doc": "",
+        "line": 540
+      },
+      {
+        "name": "spine_bone_data_set_shear_y",
+        "parameters": "(spine_bone_data data, float shearY)",
+        "doc": "",
+        "line": 541
+      },
+      {
+        "name": "spine_bone_data_get_inherit",
+        "parameters": "(spine_bone_data data)",
+        "doc": "",
+        "line": 542
+      },
+      {
+        "name": "spine_bone_data_set_inherit",
+        "parameters": "(spine_bone_data data, spine_inherit inherit)",
+        "doc": "",
+        "line": 543
+      },
+      {
+        "name": "spine_bone_data_get_is_skin_required",
+        "parameters": "(spine_bone_data data)",
+        "doc": "",
+        "line": 544
+      },
+      {
+        "name": "spine_bone_data_set_is_skin_required",
+        "parameters": "(spine_bone_data data, spine_bool isSkinRequired)",
+        "doc": "",
+        "line": 545
+      },
+      {
+        "name": "spine_bone_data_get_color",
+        "parameters": "(spine_bone_data data)",
+        "doc": "",
+        "line": 546
+      },
+      {
+        "name": "spine_bone_data_set_color",
+        "parameters": "(spine_bone_data data, float r, float g, float b, float a)",
+        "doc": "",
+        "line": 547
+      },
+      {
+        "name": "spine_bone_data_is_visible",
+        "parameters": "(spine_bone_data data)",
+        "doc": "",
+        "line": 548
+      },
+      {
+        "name": "spine_bone_data_set_visible",
+        "parameters": "(spine_bone_data data, spine_bool isVisible)",
+        "doc": "",
+        "line": 549
+      }
+    ],
+    "fields": [],
+    "type": "struct"
+  },
+  {
+    "file": "../spine-runtimes/spine-cpp/spine-cpp-lite/spine-cpp-lite.h",
+    "line": 68,
+    "name": "spine_slot_data",
+    "doc": "",
+    "methods": [
+      {
+        "name": "spine_slot_data_get_index",
+        "parameters": "(spine_slot_data slot)",
+        "doc": "",
+        "line": 489
+      },
+      {
+        "name": "spine_slot_data_get_name",
+        "parameters": "(spine_slot_data slot)",
+        "doc": "",
+        "line": 490
+      },
+      {
+        "name": "spine_slot_data_get_bone_data",
+        "parameters": "(spine_slot_data slot)",
+        "doc": "",
+        "line": 491
+      },
+      {
+        "name": "spine_slot_data_get_color",
+        "parameters": "(spine_slot_data slot)",
+        "doc": "",
+        "line": 492
+      },
+      {
+        "name": "spine_slot_data_set_color",
+        "parameters": "(spine_slot_data slot, float r, float g, float b, float a)",
+        "doc": "",
+        "line": 493
+      },
+      {
+        "name": "spine_slot_data_get_dark_color",
+        "parameters": "(spine_slot_data slot)",
+        "doc": "",
+        "line": 494
+      },
+      {
+        "name": "spine_slot_data_set_dark_color",
+        "parameters": "(spine_slot_data slot, float r, float g, float b, float a)",
+        "doc": "",
+        "line": 495
+      },
+      {
+        "name": "spine_slot_data_get_has_dark_color",
+        "parameters": "(spine_slot_data slot)",
+        "doc": "",
+        "line": 496
+      },
+      {
+        "name": "spine_slot_data_set_has_dark_color",
+        "parameters": "(spine_slot_data slot, spine_bool hasDarkColor)",
+        "doc": "",
+        "line": 497
+      },
+      {
+        "name": "spine_slot_data_get_attachment_name",
+        "parameters": "(spine_slot_data slot)",
+        "doc": "",
+        "line": 498
+      },
+      {
+        "name": "spine_slot_data_set_attachment_name",
+        "parameters": "(spine_slot_data slot, const utf8 *attachmentName)",
+        "doc": "",
+        "line": 499
+      },
+      {
+        "name": "spine_slot_data_get_blend_mode",
+        "parameters": "(spine_slot_data slot)",
+        "doc": "",
+        "line": 500
+      },
+      {
+        "name": "spine_slot_data_set_blend_mode",
+        "parameters": "(spine_slot_data slot, spine_blend_mode blendMode)",
+        "doc": "",
+        "line": 501
+      },
+      {
+        "name": "spine_slot_data_is_visible",
+        "parameters": "(spine_slot_data slot)",
+        "doc": "",
+        "line": 502
+      },
+      {
+        "name": "spine_slot_data_set_visible",
+        "parameters": "(spine_slot_data slot, spine_bool visible)",
+        "doc": "",
+        "line": 503
+      }
+    ],
+    "fields": [],
+    "type": "struct"
+  },
+  {
+    "file": "../spine-runtimes/spine-cpp/spine-cpp-lite/spine-cpp-lite.h",
+    "line": 96,
+    "name": "spine_animation",
+    "doc": "",
+    "methods": [
+      {
+        "name": "spine_animation_get_name",
+        "parameters": "(spine_animation animation)",
+        "doc": "",
+        "line": 301
+      },
+      {
+        "name": "spine_animation_get_duration",
+        "parameters": "(spine_animation animation)",
+        "doc": "// OMITTED hasTimeline()",
+        "line": 304
+      }
+    ],
+    "fields": [],
+    "type": "struct"
+  },
+  {
+    "file": "../spine-runtimes/spine-cpp/spine-cpp-lite/spine-cpp-lite.h",
+    "line": 120,
+    "name": "spine_mix_blend",
+    "doc": "",
+    "methods": [],
+    "fields": [
+      {
+        "line": 121,
+        "doc": "",
+        "name": "SPINE_MIX_BLEND_SETUP",
+        "type": "",
+        "isEnumValue": true
+      },
+      {
+        "line": 122,
+        "doc": "",
+        "name": "SPINE_MIX_BLEND_FIRST",
+        "type": "",
+        "isEnumValue": true
+      },
+      {
+        "line": 123,
+        "doc": "",
+        "name": "SPINE_MIX_BLEND_REPLACE",
+        "type": "",
+        "isEnumValue": true
+      },
+      {
+        "line": 124,
+        "doc": "",
+        "name": "SPINE_MIX_BLEND_ADD",
+        "type": "",
+        "isEnumValue": true
+      }
+    ],
+    "type": "enum"
+  },
+  {
+    "file": "../spine-runtimes/spine-cpp/spine-cpp-lite/spine-cpp-lite.h",
+    "line": 63,
+    "name": "spine_skeleton",
+    "doc": "",
+    "methods": [
+      {
+        "name": "spine_skeleton_update_cache",
+        "parameters": "(spine_skeleton skeleton)",
+        "doc": "// OMITTED setListener()",
+        "line": 405
+      },
+      {
+        "name": "spine_skeleton_update_world_transform",
+        "parameters": "(spine_skeleton skeleton, spine_physics physics)",
+        "doc": "// OMITTED printUpdateCache()",
+        "line": 407
+      },
+      {
+        "name": "spine_skeleton_update_world_transform_bone",
+        "parameters": "(spine_skeleton skeleton, spine_physics physics, spine_bone parent)",
+        "doc": "",
+        "line": 408
+      },
+      {
+        "name": "spine_skeleton_set_to_setup_pose",
+        "parameters": "(spine_skeleton skeleton)",
+        "doc": "",
+        "line": 409
+      },
+      {
+        "name": "spine_skeleton_set_bones_to_setup_pose",
+        "parameters": "(spine_skeleton skeleton)",
+        "doc": "",
+        "line": 410
+      },
+      {
+        "name": "spine_skeleton_set_slots_to_setup_pose",
+        "parameters": "(spine_skeleton skeleton)",
+        "doc": "",
+        "line": 411
+      },
+      {
+        "name": "spine_skeleton_find_bone",
+        "parameters": "(spine_skeleton skeleton, const utf8 *boneName)",
+        "doc": "",
+        "line": 412
+      },
+      {
+        "name": "spine_skeleton_find_slot",
+        "parameters": "(spine_skeleton skeleton, const utf8 *slotName)",
+        "doc": "",
+        "line": 413
+      },
+      {
+        "name": "spine_skeleton_set_skin_by_name",
+        "parameters": "(spine_skeleton skeleton, const utf8 *skinName)",
+        "doc": "",
+        "line": 414
+      },
+      {
+        "name": "spine_skeleton_set_skin",
+        "parameters": "(spine_skeleton skeleton, spine_skin skin)",
+        "doc": "",
+        "line": 415
+      },
+      {
+        "name": "spine_skeleton_get_attachment_by_name",
+        "parameters": "(spine_skeleton skeleton, const utf8 *slotName, const utf8 *attachmentName)",
+        "doc": "// @optional",
+        "line": 417
+      },
+      {
+        "name": "spine_skeleton_get_attachment",
+        "parameters": "(spine_skeleton skeleton, int32_t slotIndex, const utf8 *attachmentName)",
+        "doc": "// @optional",
+        "line": 419
+      },
+      {
+        "name": "spine_skeleton_set_attachment",
+        "parameters": "(spine_skeleton skeleton, const utf8 *slotName, const utf8 *attachmentName)",
+        "doc": "",
+        "line": 420
+      },
+      {
+        "name": "spine_skeleton_find_ik_constraint",
+        "parameters": "(spine_skeleton skeleton, const utf8 *constraintName)",
+        "doc": "",
+        "line": 421
+      },
+      {
+        "name": "spine_skeleton_find_transform_constraint",
+        "parameters": "(spine_skeleton skeleton, const utf8 *constraintName)",
+        "doc": "",
+        "line": 422
+      },
+      {
+        "name": "spine_skeleton_find_path_constraint",
+        "parameters": "(spine_skeleton skeleton, const utf8 *constraintName)",
+        "doc": "",
+        "line": 423
+      },
+      {
+        "name": "spine_skeleton_find_physics_constraint",
+        "parameters": "(spine_skeleton skeleton, const utf8 *constraintName)",
+        "doc": "",
+        "line": 424
+      },
+      {
+        "name": "spine_skeleton_get_bounds",
+        "parameters": "(spine_skeleton skeleton)",
+        "doc": "",
+        "line": 425
+      },
+      {
+        "name": "spine_skeleton_get_root_bone",
+        "parameters": "(spine_skeleton skeleton)",
+        "doc": "// @optional",
+        "line": 427
+      },
+      {
+        "name": "spine_skeleton_get_data",
+        "parameters": "(spine_skeleton skeleton)",
+        "doc": "// @optional",
+        "line": 429
+      },
+      {
+        "name": "spine_skeleton_get_num_bones",
+        "parameters": "(spine_skeleton skeleton)",
+        "doc": "",
+        "line": 430
+      },
+      {
+        "name": "spine_skeleton_get_bones",
+        "parameters": "(spine_skeleton skeleton)",
+        "doc": "",
+        "line": 431
+      },
+      {
+        "name": "spine_skeleton_get_num_slots",
+        "parameters": "(spine_skeleton skeleton)",
+        "doc": "// OMITTED getUpdateCacheList()",
+        "line": 433
+      },
+      {
+        "name": "spine_skeleton_get_slots",
+        "parameters": "(spine_skeleton skeleton)",
+        "doc": "",
+        "line": 434
+      },
+      {
+        "name": "spine_skeleton_get_num_draw_order",
+        "parameters": "(spine_skeleton skeleton)",
+        "doc": "",
+        "line": 435
+      },
+      {
+        "name": "spine_skeleton_get_draw_order",
+        "parameters": "(spine_skeleton skeleton)",
+        "doc": "",
+        "line": 436
+      },
+      {
+        "name": "spine_skeleton_get_num_ik_constraints",
+        "parameters": "(spine_skeleton skeleton)",
+        "doc": "",
+        "line": 437
+      },
+      {
+        "name": "spine_skeleton_get_ik_constraints",
+        "parameters": "(spine_skeleton skeleton)",
+        "doc": "",
+        "line": 438
+      },
+      {
+        "name": "spine_skeleton_get_num_transform_constraints",
+        "parameters": "(spine_skeleton skeleton)",
+        "doc": "",
+        "line": 439
+      },
+      {
+        "name": "spine_skeleton_get_transform_constraints",
+        "parameters": "(spine_skeleton skeleton)",
+        "doc": "",
+        "line": 440
+      },
+      {
+        "name": "spine_skeleton_get_num_path_constraints",
+        "parameters": "(spine_skeleton skeleton)",
+        "doc": "",
+        "line": 441
+      },
+      {
+        "name": "spine_skeleton_get_path_constraints",
+        "parameters": "(spine_skeleton skeleton)",
+        "doc": "",
+        "line": 442
+      },
+      {
+        "name": "spine_skeleton_get_num_physics_constraints",
+        "parameters": "(spine_skeleton skeleton)",
+        "doc": "",
+        "line": 443
+      },
+      {
+        "name": "spine_skeleton_get_physics_constraints",
+        "parameters": "(spine_skeleton skeleton)",
+        "doc": "",
+        "line": 444
+      },
+      {
+        "name": "spine_skeleton_get_skin",
+        "parameters": "(spine_skeleton skeleton)",
+        "doc": "// @optional",
+        "line": 446
+      },
+      {
+        "name": "spine_skeleton_get_color",
+        "parameters": "(spine_skeleton skeleton)",
+        "doc": "",
+        "line": 447
+      },
+      {
+        "name": "spine_skeleton_set_color",
+        "parameters": "(spine_skeleton skeleton, float r, float g, float b, float a)",
+        "doc": "",
+        "line": 448
+      },
+      {
+        "name": "spine_skeleton_set_position",
+        "parameters": "(spine_skeleton skeleton, float x, float y)",
+        "doc": "",
+        "line": 449
+      },
+      {
+        "name": "spine_skeleton_get_x",
+        "parameters": "(spine_skeleton skeleton)",
+        "doc": "",
+        "line": 450
+      },
+      {
+        "name": "spine_skeleton_set_x",
+        "parameters": "(spine_skeleton skeleton, float x)",
+        "doc": "",
+        "line": 451
+      },
+      {
+        "name": "spine_skeleton_get_y",
+        "parameters": "(spine_skeleton skeleton)",
+        "doc": "",
+        "line": 452
+      },
+      {
+        "name": "spine_skeleton_set_y",
+        "parameters": "(spine_skeleton skeleton, float y)",
+        "doc": "",
+        "line": 453
+      },
+      {
+        "name": "spine_skeleton_get_scale_x",
+        "parameters": "(spine_skeleton skeleton)",
+        "doc": "",
+        "line": 454
+      },
+      {
+        "name": "spine_skeleton_set_scale_x",
+        "parameters": "(spine_skeleton skeleton, float scaleX)",
+        "doc": "",
+        "line": 455
+      },
+      {
+        "name": "spine_skeleton_get_scale_y",
+        "parameters": "(spine_skeleton skeleton)",
+        "doc": "",
+        "line": 456
+      },
+      {
+        "name": "spine_skeleton_set_scale_y",
+        "parameters": "(spine_skeleton skeleton, float scaleY)",
+        "doc": "",
+        "line": 457
+      },
+      {
+        "name": "spine_skeleton_get_time",
+        "parameters": "(spine_skeleton skeleton)",
+        "doc": "",
+        "line": 458
+      },
+      {
+        "name": "spine_skeleton_set_time",
+        "parameters": "(spine_skeleton skeleton, float time)",
+        "doc": "",
+        "line": 459
+      },
+      {
+        "name": "spine_skeleton_update",
+        "parameters": "(spine_skeleton skeleton, float delta)",
+        "doc": "",
+        "line": 460
+      }
+    ],
+    "fields": [],
+    "type": "struct"
+  },
+  {
+    "file": "../spine-runtimes/spine-cpp/spine-cpp-lite/spine-cpp-lite.h",
+    "line": 79,
+    "name": "spine_sequence",
+    "doc": "",
+    "methods": [
+      {
+        "name": "spine_sequence_apply",
+        "parameters": "(spine_sequence sequence, spine_slot slot, spine_attachment attachment)",
+        "doc": "// OMITTED copy()",
+        "line": 1008
+      },
+      {
+        "name": "spine_sequence_get_path",
+        "parameters": "(spine_sequence sequence, const utf8 *basePath, int32_t index)",
+        "doc": "",
+        "line": 1009
+      },
+      {
+        "name": "spine_sequence_get_id",
+        "parameters": "(spine_sequence sequence)",
+        "doc": "",
+        "line": 1010
+      },
+      {
+        "name": "spine_sequence_set_id",
+        "parameters": "(spine_sequence sequence, int32_t id)",
+        "doc": "",
+        "line": 1011
+      },
+      {
+        "name": "spine_sequence_get_start",
+        "parameters": "(spine_sequence sequence)",
+        "doc": "",
+        "line": 1012
+      },
+      {
+        "name": "spine_sequence_set_start",
+        "parameters": "(spine_sequence sequence, int32_t start)",
+        "doc": "",
+        "line": 1013
+      },
+      {
+        "name": "spine_sequence_get_digits",
+        "parameters": "(spine_sequence sequence)",
+        "doc": "",
+        "line": 1014
+      },
+      {
+        "name": "spine_sequence_set_digits",
+        "parameters": "(spine_sequence sequence, int32_t digits)",
+        "doc": "",
+        "line": 1015
+      },
+      {
+        "name": "spine_sequence_get_setup_index",
+        "parameters": "(spine_sequence sequence)",
+        "doc": "",
+        "line": 1016
+      },
+      {
+        "name": "spine_sequence_set_setup_index",
+        "parameters": "(spine_sequence sequence, int32_t setupIndex)",
+        "doc": "",
+        "line": 1017
+      },
+      {
+        "name": "spine_sequence_get_num_regions",
+        "parameters": "(spine_sequence sequence)",
+        "doc": "",
+        "line": 1018
+      },
+      {
+        "name": "spine_sequence_get_regions",
+        "parameters": "(spine_sequence sequence)",
+        "doc": "",
+        "line": 1019
+      }
+    ],
+    "fields": [],
+    "type": "struct"
+  },
+  {
+    "file": "../spine-runtimes/spine-cpp/spine-cpp-lite/spine-cpp-lite.h",
+    "line": 151,
+    "name": "spine_inherit",
+    "doc": "",
+    "methods": [],
+    "fields": [
+      {
+        "line": 152,
+        "doc": "",
+        "name": "SPINE_INHERIT_NORMAL",
+        "type": "",
+        "isEnumValue": true
+      },
+      {
+        "line": 153,
+        "doc": "",
+        "name": "SPINE_INHERIT_ONLY_TRANSLATION",
+        "type": "",
+        "isEnumValue": true
+      },
+      {
+        "line": 154,
+        "doc": "",
+        "name": "SPINE_INHERIT_NO_ROTATION_OR_REFLECTION",
+        "type": "",
+        "isEnumValue": true
+      },
+      {
+        "line": 155,
+        "doc": "",
+        "name": "SPINE_INHERIT_NO_SCALE",
+        "type": "",
+        "isEnumValue": true
+      },
+      {
+        "line": 156,
+        "doc": "",
+        "name": "SPINE_INHERIT_NO_SCALE_OR_REFLECTION",
+        "type": "",
+        "isEnumValue": true
+      }
+    ],
+    "type": "enum"
+  },
+  {
+    "file": "../spine-runtimes/spine-cpp/spine-cpp-lite/spine-cpp-lite.h",
+    "line": 177,
+    "name": "spine_physics",
+    "doc": "",
+    "methods": [],
+    "fields": [
+      {
+        "line": 178,
+        "doc": "",
+        "name": "SPINE_PHYSICS_NONE",
+        "type": "",
+        "isEnumValue": true
+      },
+      {
+        "line": 179,
+        "doc": "",
+        "name": "SPINE_PHYSICS_RESET",
+        "type": "",
+        "isEnumValue": true
+      },
+      {
+        "line": 180,
+        "doc": "",
+        "name": "SPINE_PHYSICS_UPDATE",
+        "type": "",
+        "isEnumValue": true
+      },
+      {
+        "line": 181,
+        "doc": "",
+        "name": "SPINE_PHYSICS_POSE",
+        "type": "",
+        "isEnumValue": true
+      }
+    ],
+    "type": "enum"
+  },
+  {
+    "file": "../spine-runtimes/spine-cpp/spine-cpp-lite/spine-cpp-lite.h",
+    "line": 100,
+    "name": "spine_bounds",
+    "doc": "",
+    "methods": [
+      {
+        "name": "spine_bounds_get_x",
+        "parameters": "(spine_bounds bounds)",
+        "doc": "",
+        "line": 201
+      },
+      {
+        "name": "spine_bounds_get_y",
+        "parameters": "(spine_bounds bounds)",
+        "doc": "",
+        "line": 202
+      },
+      {
+        "name": "spine_bounds_get_width",
+        "parameters": "(spine_bounds bounds)",
+        "doc": "",
+        "line": 203
+      },
+      {
+        "name": "spine_bounds_get_height",
+        "parameters": "(spine_bounds bounds)",
+        "doc": "",
+        "line": 204
+      }
+    ],
+    "fields": [],
+    "type": "struct"
+  },
+  {
+    "file": "../spine-runtimes/spine-cpp/spine-cpp-lite/spine-cpp-lite.h",
+    "line": 102,
+    "name": "spine_vector",
+    "doc": "",
+    "methods": [
+      {
+        "name": "spine_vector_get_x",
+        "parameters": "(spine_vector vector)",
+        "doc": "",
+        "line": 206
+      },
+      {
+        "name": "spine_vector_get_y",
+        "parameters": "(spine_vector vector)",
+        "doc": "",
+        "line": 207
+      }
+    ],
+    "fields": [],
+    "type": "struct"
+  },
+  {
+    "file": "../spine-runtimes/spine-cpp/spine-cpp-lite/spine-cpp-lite.h",
+    "line": 93,
+    "name": "spine_event",
+    "doc": "",
+    "methods": [
+      {
+        "name": "spine_event_get_data",
+        "parameters": "(spine_event event)",
+        "doc": "",
+        "line": 476
+      },
+      {
+        "name": "spine_event_get_time",
+        "parameters": "(spine_event event)",
+        "doc": "",
+        "line": 477
+      },
+      {
+        "name": "spine_event_get_int_value",
+        "parameters": "(spine_event event)",
+        "doc": "",
+        "line": 478
+      },
+      {
+        "name": "spine_event_set_int_value",
+        "parameters": "(spine_event event, int32_t value)",
+        "doc": "",
+        "line": 479
+      },
+      {
+        "name": "spine_event_get_float_value",
+        "parameters": "(spine_event event)",
+        "doc": "",
+        "line": 480
+      },
+      {
+        "name": "spine_event_set_float_value",
+        "parameters": "(spine_event event, float value)",
+        "doc": "",
+        "line": 481
+      },
+      {
+        "name": "spine_event_get_string_value",
+        "parameters": "(spine_event event)",
+        "doc": "",
+        "line": 482
+      },
+      {
+        "name": "spine_event_set_string_value",
+        "parameters": "(spine_event event, const utf8 *value)",
+        "doc": "",
+        "line": 483
+      },
+      {
+        "name": "spine_event_get_volume",
+        "parameters": "(spine_event event)",
+        "doc": "",
+        "line": 484
+      },
+      {
+        "name": "spine_event_set_volume",
+        "parameters": "(spine_event event, float volume)",
+        "doc": "",
+        "line": 485
+      },
+      {
+        "name": "spine_event_get_balance",
+        "parameters": "(spine_event event)",
+        "doc": "",
+        "line": 486
+      },
+      {
+        "name": "spine_event_set_balance",
+        "parameters": "(spine_event event, float balance)",
+        "doc": "",
+        "line": 487
+      }
+    ],
+    "fields": [],
+    "type": "struct"
+  },
+  {
+    "file": "../spine-runtimes/spine-cpp/spine-cpp-lite/spine-cpp-lite.h",
+    "line": 97,
+    "name": "spine_atlas",
+    "doc": "",
+    "methods": [
+      {
+        "name": "spine_atlas_load",
+        "parameters": "(const utf8 *atlasData)",
+        "doc": "",
+        "line": 209
+      },
+      {
+        "name": "spine_atlas_get_num_image_paths",
+        "parameters": "(spine_atlas atlas)",
+        "doc": "",
+        "line": 210
+      },
+      {
+        "name": "spine_atlas_get_image_path",
+        "parameters": "(spine_atlas atlas, int32_t index)",
+        "doc": "",
+        "line": 211
+      },
+      {
+        "name": "spine_atlas_is_pma",
+        "parameters": "(spine_atlas atlas)",
+        "doc": "",
+        "line": 212
+      },
+      {
+        "name": "spine_atlas_get_error",
+        "parameters": "(spine_atlas atlas)",
+        "doc": "",
+        "line": 213
+      },
+      {
+        "name": "spine_atlas_dispose",
+        "parameters": "(spine_atlas atlas)",
+        "doc": "",
+        "line": 214
+      }
+    ],
+    "fields": [],
+    "type": "struct"
+  },
+  {
+    "file": "../spine-runtimes/spine-cpp/spine-cpp-lite/spine-cpp-lite.h",
+    "line": 101,
+    "name": "spine_color",
+    "doc": "",
+    "methods": [
+      {
+        "name": "spine_color_get_r",
+        "parameters": "(spine_color color)",
+        "doc": "",
+        "line": 196
+      },
+      {
+        "name": "spine_color_get_g",
+        "parameters": "(spine_color color)",
+        "doc": "",
+        "line": 197
+      },
+      {
+        "name": "spine_color_get_b",
+        "parameters": "(spine_color color)",
+        "doc": "",
+        "line": 198
+      },
+      {
+        "name": "spine_color_get_a",
+        "parameters": "(spine_color color)",
+        "doc": "",
+        "line": 199
+      }
+    ],
+    "fields": [],
+    "type": "struct"
+  },
+  {
+    "file": "../spine-runtimes/spine-cpp/spine-cpp-lite/spine-cpp-lite.h",
+    "line": 65,
+    "name": "spine_bone",
+    "doc": "",
+    "methods": [
+      {
+        "name": "spine_bone_set_is_y_down",
+        "parameters": "(spine_bool yDown)",
+        "doc": "// Omitted getIcon()/setIcon()",
+        "line": 552
+      },
+      {
+        "name": "spine_bone_get_is_y_down",
+        "parameters": "()",
+        "doc": "",
+        "line": 553
+      },
+      {
+        "name": "spine_bone_update",
+        "parameters": "(spine_bone bone)",
+        "doc": "",
+        "line": 554
+      },
+      {
+        "name": "spine_bone_update_world_transform",
+        "parameters": "(spine_bone bone)",
+        "doc": "",
+        "line": 555
+      },
+      {
+        "name": "spine_bone_update_world_transform_with",
+        "parameters": "(spine_bone bone, float x, float y, float rotation, float scaleX, float scaleY, float shearX, float shearY)",
+        "doc": "",
+        "line": 556
+      },
+      {
+        "name": "spine_bone_update_applied_transform",
+        "parameters": "(spine_bone bone)",
+        "doc": "",
+        "line": 557
+      },
+      {
+        "name": "spine_bone_set_to_setup_pose",
+        "parameters": "(spine_bone bone)",
+        "doc": "",
+        "line": 558
+      },
+      {
+        "name": "spine_bone_world_to_local",
+        "parameters": "(spine_bone bone, float worldX, float worldY)",
+        "doc": "",
+        "line": 559
+      },
+      {
+        "name": "spine_bone_world_to_parent",
+        "parameters": "(spine_bone bone, float worldX, float worldY)",
+        "doc": "",
+        "line": 560
+      },
+      {
+        "name": "spine_bone_local_to_world",
+        "parameters": "(spine_bone bone, float localX, float localY)",
+        "doc": "",
+        "line": 561
+      },
+      {
+        "name": "spine_bone_parent_to_world",
+        "parameters": "(spine_bone bone, float localX, float localY)",
+        "doc": "",
+        "line": 562
+      },
+      {
+        "name": "spine_bone_world_to_local_rotation",
+        "parameters": "(spine_bone bone, float worldRotation)",
+        "doc": "",
+        "line": 563
+      },
+      {
+        "name": "spine_bone_local_to_world_rotation",
+        "parameters": "(spine_bone bone, float localRotation)",
+        "doc": "",
+        "line": 564
+      },
+      {
+        "name": "spine_bone_rotate_world",
+        "parameters": "(spine_bone bone, float degrees)",
+        "doc": "",
+        "line": 565
+      },
+      {
+        "name": "spine_bone_get_world_to_local_rotation_x",
+        "parameters": "(spine_bone bone)",
+        "doc": "",
+        "line": 566
+      },
+      {
+        "name": "spine_bone_get_world_to_local_rotation_y",
+        "parameters": "(spine_bone bone)",
+        "doc": "",
+        "line": 567
+      },
+      {
+        "name": "spine_bone_get_data",
+        "parameters": "(spine_bone bone)",
+        "doc": "",
+        "line": 568
+      },
+      {
+        "name": "spine_bone_get_skeleton",
+        "parameters": "(spine_bone bone)",
+        "doc": "",
+        "line": 569
+      },
+      {
+        "name": "spine_bone_get_parent",
+        "parameters": "(spine_bone bone)",
+        "doc": "// @optional",
+        "line": 571
+      },
+      {
+        "name": "spine_bone_get_num_children",
+        "parameters": "(spine_bone bone)",
+        "doc": "",
+        "line": 572
+      },
+      {
+        "name": "spine_bone_get_children",
+        "parameters": "(spine_bone bone)",
+        "doc": "",
+        "line": 573
+      },
+      {
+        "name": "spine_bone_get_x",
+        "parameters": "(spine_bone bone)",
+        "doc": "",
+        "line": 574
+      },
+      {
+        "name": "spine_bone_set_x",
+        "parameters": "(spine_bone bone, float x)",
+        "doc": "",
+        "line": 575
+      },
+      {
+        "name": "spine_bone_get_y",
+        "parameters": "(spine_bone bone)",
+        "doc": "",
+        "line": 576
+      },
+      {
+        "name": "spine_bone_set_y",
+        "parameters": "(spine_bone bone, float y)",
+        "doc": "",
+        "line": 577
+      },
+      {
+        "name": "spine_bone_get_rotation",
+        "parameters": "(spine_bone bone)",
+        "doc": "",
+        "line": 578
+      },
+      {
+        "name": "spine_bone_set_rotation",
+        "parameters": "(spine_bone bone, float rotation)",
+        "doc": "",
+        "line": 579
+      },
+      {
+        "name": "spine_bone_get_scale_x",
+        "parameters": "(spine_bone bone)",
+        "doc": "",
+        "line": 580
+      },
+      {
+        "name": "spine_bone_set_scale_x",
+        "parameters": "(spine_bone bone, float scaleX)",
+        "doc": "",
+        "line": 581
+      },
+      {
+        "name": "spine_bone_get_scale_y",
+        "parameters": "(spine_bone bone)",
+        "doc": "",
+        "line": 582
+      },
+      {
+        "name": "spine_bone_set_scale_y",
+        "parameters": "(spine_bone bone, float scaleY)",
+        "doc": "",
+        "line": 583
+      },
+      {
+        "name": "spine_bone_get_shear_x",
+        "parameters": "(spine_bone bone)",
+        "doc": "",
+        "line": 584
+      },
+      {
+        "name": "spine_bone_set_shear_x",
+        "parameters": "(spine_bone bone, float shearX)",
+        "doc": "",
+        "line": 585
+      },
+      {
+        "name": "spine_bone_get_shear_y",
+        "parameters": "(spine_bone bone)",
+        "doc": "",
+        "line": 586
+      },
+      {
+        "name": "spine_bone_set_shear_y",
+        "parameters": "(spine_bone bone, float shearY)",
+        "doc": "",
+        "line": 587
+      },
+      {
+        "name": "spine_bone_get_applied_rotation",
+        "parameters": "(spine_bone bone)",
+        "doc": "",
+        "line": 588
+      },
+      {
+        "name": "spine_bone_set_applied_rotation",
+        "parameters": "(spine_bone bone, float rotation)",
+        "doc": "",
+        "line": 589
+      },
+      {
+        "name": "spine_bone_get_a_x",
+        "parameters": "(spine_bone bone)",
+        "doc": "",
+        "line": 590
+      },
+      {
+        "name": "spine_bone_set_a_x",
+        "parameters": "(spine_bone bone, float x)",
+        "doc": "",
+        "line": 591
+      },
+      {
+        "name": "spine_bone_get_a_y",
+        "parameters": "(spine_bone bone)",
+        "doc": "",
+        "line": 592
+      },
+      {
+        "name": "spine_bone_set_a_y",
+        "parameters": "(spine_bone bone, float y)",
+        "doc": "",
+        "line": 593
+      },
+      {
+        "name": "spine_bone_get_a_scale_x",
+        "parameters": "(spine_bone bone)",
+        "doc": "",
+        "line": 594
+      },
+      {
+        "name": "spine_bone_set_a_scale_x",
+        "parameters": "(spine_bone bone, float scaleX)",
+        "doc": "",
+        "line": 595
+      },
+      {
+        "name": "spine_bone_get_a_scale_y",
+        "parameters": "(spine_bone bone)",
+        "doc": "",
+        "line": 596
+      },
+      {
+        "name": "spine_bone_set_a_scale_y",
+        "parameters": "(spine_bone bone, float scaleY)",
+        "doc": "",
+        "line": 597
+      },
+      {
+        "name": "spine_bone_get_a_shear_x",
+        "parameters": "(spine_bone bone)",
+        "doc": "",
+        "line": 598
+      },
+      {
+        "name": "spine_bone_set_a_shear_x",
+        "parameters": "(spine_bone bone, float shearX)",
+        "doc": "",
+        "line": 599
+      },
+      {
+        "name": "spine_bone_get_a_shear_y",
+        "parameters": "(spine_bone bone)",
+        "doc": "",
+        "line": 600
+      },
+      {
+        "name": "spine_bone_set_a_shear_y",
+        "parameters": "(spine_bone bone, float shearY)",
+        "doc": "",
+        "line": 601
+      },
+      {
+        "name": "spine_bone_get_a",
+        "parameters": "(spine_bone bone)",
+        "doc": "",
+        "line": 602
+      },
+      {
+        "name": "spine_bone_set_a",
+        "parameters": "(spine_bone bone, float a)",
+        "doc": "",
+        "line": 603
+      },
+      {
+        "name": "spine_bone_get_b",
+        "parameters": "(spine_bone bone)",
+        "doc": "",
+        "line": 604
+      },
+      {
+        "name": "spine_bone_set_b",
+        "parameters": "(spine_bone bone, float b)",
+        "doc": "",
+        "line": 605
+      },
+      {
+        "name": "spine_bone_get_c",
+        "parameters": "(spine_bone bone)",
+        "doc": "",
+        "line": 606
+      },
+      {
+        "name": "spine_bone_set_c",
+        "parameters": "(spine_bone bone, float c)",
+        "doc": "",
+        "line": 607
+      },
+      {
+        "name": "spine_bone_get_d",
+        "parameters": "(spine_bone bone)",
+        "doc": "",
+        "line": 608
+      },
+      {
+        "name": "spine_bone_set_d",
+        "parameters": "(spine_bone bone, float d)",
+        "doc": "",
+        "line": 609
+      },
+      {
+        "name": "spine_bone_get_world_x",
+        "parameters": "(spine_bone bone)",
+        "doc": "",
+        "line": 610
+      },
+      {
+        "name": "spine_bone_set_world_x",
+        "parameters": "(spine_bone bone, float worldX)",
+        "doc": "",
+        "line": 611
+      },
+      {
+        "name": "spine_bone_get_world_y",
+        "parameters": "(spine_bone bone)",
+        "doc": "",
+        "line": 612
+      },
+      {
+        "name": "spine_bone_set_world_y",
+        "parameters": "(spine_bone bone, float worldY)",
+        "doc": "",
+        "line": 613
+      },
+      {
+        "name": "spine_bone_get_world_rotation_x",
+        "parameters": "(spine_bone bone)",
+        "doc": "",
+        "line": 614
+      },
+      {
+        "name": "spine_bone_get_world_rotation_y",
+        "parameters": "(spine_bone bone)",
+        "doc": "",
+        "line": 615
+      },
+      {
+        "name": "spine_bone_get_world_scale_x",
+        "parameters": "(spine_bone bone)",
+        "doc": "",
+        "line": 616
+      },
+      {
+        "name": "spine_bone_get_world_scale_y",
+        "parameters": "(spine_bone bone)",
+        "doc": "",
+        "line": 617
+      },
+      {
+        "name": "spine_bone_get_is_active",
+        "parameters": "(spine_bone bone)",
+        "doc": "",
+        "line": 618
+      },
+      {
+        "name": "spine_bone_set_is_active",
+        "parameters": "(spine_bone bone, spine_bool isActive)",
+        "doc": "",
+        "line": 619
+      },
+      {
+        "name": "spine_bone_get_inherit",
+        "parameters": "(spine_bone data)",
+        "doc": "",
+        "line": 620
+      },
+      {
+        "name": "spine_bone_set_inherit",
+        "parameters": "(spine_bone data, spine_inherit inherit)",
+        "doc": "",
+        "line": 621
+      }
+    ],
+    "fields": [],
+    "type": "struct"
+  },
+  {
+    "file": "../spine-runtimes/spine-cpp/spine-cpp-lite/spine-cpp-lite.h",
+    "line": 67,
+    "name": "spine_slot",
+    "doc": "",
+    "methods": [
+      {
+        "name": "spine_slot_set_to_setup_pose",
+        "parameters": "(spine_slot slot)",
+        "doc": "// OMITTED getPath()/setPath()",
+        "line": 506
+      },
+      {
+        "name": "spine_slot_get_data",
+        "parameters": "(spine_slot slot)",
+        "doc": "",
+        "line": 507
+      },
+      {
+        "name": "spine_slot_get_bone",
+        "parameters": "(spine_slot slot)",
+        "doc": "",
+        "line": 508
+      },
+      {
+        "name": "spine_slot_get_skeleton",
+        "parameters": "(spine_slot slot)",
+        "doc": "",
+        "line": 509
+      },
+      {
+        "name": "spine_slot_get_color",
+        "parameters": "(spine_slot slot)",
+        "doc": "",
+        "line": 510
+      },
+      {
+        "name": "spine_slot_set_color",
+        "parameters": "(spine_slot slot, float r, float g, float b, float a)",
+        "doc": "",
+        "line": 511
+      },
+      {
+        "name": "spine_slot_get_dark_color",
+        "parameters": "(spine_slot slot)",
+        "doc": "",
+        "line": 512
+      },
+      {
+        "name": "spine_slot_set_dark_color",
+        "parameters": "(spine_slot slot, float r, float g, float b, float a)",
+        "doc": "",
+        "line": 513
+      },
+      {
+        "name": "spine_slot_has_dark_color",
+        "parameters": "(spine_slot slot)",
+        "doc": "",
+        "line": 514
+      },
+      {
+        "name": "spine_slot_get_attachment",
+        "parameters": "(spine_slot slot)",
+        "doc": "// @optional",
+        "line": 516
+      },
+      {
+        "name": "spine_slot_set_attachment",
+        "parameters": "(spine_slot slot, spine_attachment attachment)",
+        "doc": "",
+        "line": 517
+      },
+      {
+        "name": "spine_slot_get_sequence_index",
+        "parameters": "(spine_slot slot)",
+        "doc": "// OMITTED getDeform()",
+        "line": 519
+      },
+      {
+        "name": "spine_slot_set_sequence_index",
+        "parameters": "(spine_slot slot, int32_t sequenceIndex)",
+        "doc": "",
+        "line": 520
+      }
+    ],
+    "fields": [],
+    "type": "struct"
+  },
+  {
+    "file": "../spine-runtimes/spine-cpp/spine-cpp-lite/spine-cpp-lite.h",
+    "line": 69,
+    "name": "spine_skin",
+    "doc": "",
+    "methods": [
+      {
+        "name": "spine_skin_set_attachment",
+        "parameters": "(spine_skin skin, int32_t slotIndex, const utf8 *name, spine_attachment attachment)",
+        "doc": "",
+        "line": 732
+      },
+      {
+        "name": "spine_skin_get_attachment",
+        "parameters": "(spine_skin skin, int32_t slotIndex, const utf8 *name)",
+        "doc": "// @optional",
+        "line": 734
+      },
+      {
+        "name": "spine_skin_remove_attachment",
+        "parameters": "(spine_skin skin, int32_t slotIndex, const utf8 *name)",
+        "doc": "",
+        "line": 735
+      },
+      {
+        "name": "spine_skin_get_name",
+        "parameters": "(spine_skin skin)",
+        "doc": "",
+        "line": 739
+      },
+      {
+        "name": "spine_skin_add_skin",
+        "parameters": "(spine_skin skin, spine_skin other)",
+        "doc": "",
+        "line": 740
+      },
+      {
+        "name": "spine_skin_copy_skin",
+        "parameters": "(spine_skin skin, spine_skin other)",
+        "doc": "",
+        "line": 741
+      },
+      {
+        "name": "spine_skin_get_entries",
+        "parameters": "(spine_skin skin)",
+        "doc": "",
+        "line": 742
+      },
+      {
+        "name": "spine_skin_get_num_bones",
+        "parameters": "(spine_skin skin)",
+        "doc": "",
+        "line": 749
+      },
+      {
+        "name": "spine_skin_get_bones",
+        "parameters": "(spine_skin skin)",
+        "doc": "",
+        "line": 750
+      },
+      {
+        "name": "spine_skin_get_num_constraints",
+        "parameters": "(spine_skin skin)",
+        "doc": "",
+        "line": 751
+      },
+      {
+        "name": "spine_skin_get_constraints",
+        "parameters": "(spine_skin skin)",
+        "doc": "",
+        "line": 752
+      },
+      {
+        "name": "spine_skin_create",
+        "parameters": "(const utf8 *name)",
+        "doc": "// @ignore",
+        "line": 754
+      },
+      {
+        "name": "spine_skin_dispose",
+        "parameters": "(spine_skin skin)",
+        "doc": "",
+        "line": 755
+      }
+    ],
+    "fields": [],
+    "type": "struct"
+  }
+]

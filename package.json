@@ -2,13 +2,19 @@
   "name": "docsync",
   "version": "1.0.0",
   "scripts": {
-    "build": "node build.js"
+    "build": "esbuild src/main.ts --outfile=build/docsync.js --bundle --platform=node --sourcemap",
+    "dev": "esbuild src/main.ts --outfile=build/docsync.js --bundle --platform=node --sourcemap --external:tree-sitter --external:tree-sitter-java --external:tree-sitter-typescript --external:tree-sitter-haxe --external:tree-sitter-cpp --watch"
   },
   "devDependencies": {
     "esbuild": "^0.21.5",
     "typescript": "5.5.2"
   },
   "dependencies": {
-    "tree-sitter": "^0.21.1"
+    "openai": "^4.52.0",
+    "tree-sitter": "^0.21.1",
+    "tree-sitter-cpp": "^0.22.2",
+    "tree-sitter-haxe": "^0.10.0",
+    "tree-sitter-java": "^0.21.0",
+    "tree-sitter-typescript": "^0.21.1"
   }
 }

@@ -1,0 +1,301 @@
+[
+  {
+    "file": "../spine-runtimes/spine-ts/spine-core/src/Skeleton.ts",
+    "line": 49,
+    "name": "Skeleton",
+    "doc": "",
+    "methods": [
+      {
+        "name": "scaleY",
+        "parameters": "()",
+        "doc": "",
+        "line": 95
+      },
+      {
+        "name": "constructor",
+        "parameters": "(data: SkeletonData)",
+        "doc": "",
+        "line": 114
+      },
+      {
+        "name": "updateCache",
+        "parameters": "()",
+        "doc": "",
+        "line": 172
+      },
+      {
+        "name": "updateWorldTransform",
+        "parameters": "(physics: Physics)",
+        "doc": "",
+        "line": 380
+      },
+      {
+        "name": "setToSetupPose",
+        "parameters": "()",
+        "doc": "",
+        "line": 427
+      },
+      {
+        "name": "setBonesToSetupPose",
+        "parameters": "()",
+        "doc": "",
+        "line": 433
+      },
+      {
+        "name": "setSlotsToSetupPose",
+        "parameters": "()",
+        "doc": "",
+        "line": 442
+      },
+      {
+        "name": "getRootBone",
+        "parameters": "()",
+        "doc": "",
+        "line": 450
+      },
+      {
+        "name": "findBone",
+        "parameters": "(boneName: string)",
+        "doc": "",
+        "line": 456
+      },
+      {
+        "name": "findSlot",
+        "parameters": "(slotName: string)",
+        "doc": "",
+        "line": 469
+      },
+      {
+        "name": "setSkinByName",
+        "parameters": "(skinName: string)",
+        "doc": "",
+        "line": 482
+      },
+      {
+        "name": "setSkin",
+        "parameters": "(newSkin: Skin)",
+        "doc": "",
+        "line": 498
+      },
+      {
+        "name": "getAttachmentByName",
+        "parameters": "(slotName: string, attachmentName: string)",
+        "doc": "",
+        "line": 525
+      },
+      {
+        "name": "getAttachment",
+        "parameters": "(slotIndex: number, attachmentName: string)",
+        "doc": "",
+        "line": 536
+      },
+      {
+        "name": "setAttachment",
+        "parameters": "(slotName: string, attachmentName: string)",
+        "doc": "",
+        "line": 549
+      },
+      {
+        "name": "findIkConstraint",
+        "parameters": "(constraintName: string)",
+        "doc": "",
+        "line": 571
+      },
+      {
+        "name": "findTransformConstraint",
+        "parameters": "(constraintName: string)",
+        "doc": "",
+        "line": 579
+      },
+      {
+        "name": "findPathConstraint",
+        "parameters": "(constraintName: string)",
+        "doc": "",
+        "line": 587
+      },
+      {
+        "name": "findPhysicsConstraint",
+        "parameters": "(constraintName: string)",
+        "doc": "",
+        "line": 594
+      },
+      {
+        "name": "getBoundsRect",
+        "parameters": "()",
+        "doc": "",
+        "line": 601
+      },
+      {
+        "name": "getBounds",
+        "parameters": "(offset: Vector2, size: Vector2, temp: Array<number> = new Array<number>(2), clipper: SkeletonClipping | null = null)",
+        "doc": "",
+        "line": 613
+      },
+      {
+        "name": "update",
+        "parameters": "(delta: number)",
+        "doc": "",
+        "line": 662
+      },
+      {
+        "name": "physicsRotate",
+        "parameters": "(x: number, y: number, degrees: number)",
+        "doc": "",
+        "line": 673
+      }
+    ],
+    "fields": [
+      {
+        "line": 54,
+        "doc": "",
+        "name": "data",
+        "type": ": SkeletonData",
+        "isEnumValue": false
+      },
+      {
+        "line": 57,
+        "doc": "",
+        "name": "bones",
+        "type": ": Array<Bone>",
+        "isEnumValue": false
+      },
+      {
+        "line": 60,
+        "doc": "",
+        "name": "slots",
+        "type": ": Array<Slot>",
+        "isEnumValue": false
+      },
+      {
+        "line": 63,
+        "doc": "",
+        "name": "drawOrder",
+        "type": ": Array<Slot>",
+        "isEnumValue": false
+      },
+      {
+        "line": 66,
+        "doc": "",
+        "name": "ikConstraints",
+        "type": ": Array<IkConstraint>",
+        "isEnumValue": false
+      },
+      {
+        "line": 69,
+        "doc": "",
+        "name": "transformConstraints",
+        "type": ": Array<TransformConstraint>",
+        "isEnumValue": false
+      },
+      {
+        "line": 72,
+        "doc": "",
+        "name": "pathConstraints",
+        "type": ": Array<PathConstraint>",
+        "isEnumValue": false
+      },
+      {
+        "line": 76,
+        "doc": "",
+        "name": "physicsConstraints",
+        "type": ": Array<PhysicsConstraint>",
+        "isEnumValue": false
+      },
+      {
+        "line": 79,
+        "doc": "",
+        "name": "_updateCache",
+        "type": "",
+        "isEnumValue": false
+      },
+      {
+        "line": 82,
+        "doc": "",
+        "name": "skin",
+        "type": ": Skin | null",
+        "isEnumValue": false
+      },
+      {
+        "line": 85,
+        "doc": "",
+        "name": "color",
+        "type": ": Color",
+        "isEnumValue": false
+      },
+      {
+        "line": 89,
+        "doc": "",
+        "name": "scaleX",
+        "type": "",
+        "isEnumValue": false
+      },
+      {
+        "line": 93,
+        "doc": "",
+        "name": "_scaleY",
+        "type": "",
+        "isEnumValue": false
+      },
+      {
+        "line": 104,
+        "doc": "",
+        "name": "x",
+        "type": "",
+        "isEnumValue": false
+      },
+      {
+        "line": 107,
+        "doc": "",
+        "name": "y",
+        "type": "",
+        "isEnumValue": false
+      },
+      {
+        "line": 112,
+        "doc": "",
+        "name": "time",
+        "type": "",
+        "isEnumValue": false
+      }
+    ],
+    "type": "class"
+  },
+  {
+    "file": "../spine-runtimes/spine-ts/spine-core/src/Skeleton.ts",
+    "line": 681,
+    "name": "Physics",
+    "doc": "",
+    "methods": [],
+    "fields": [
+      {
+        "line": 683,
+        "doc": "",
+        "name": "none",
+        "type": "",
+        "isEnumValue": true
+      },
+      {
+        "line": 686,
+        "doc": "",
+        "name": "reset",
+        "type": "",
+        "isEnumValue": true
+      },
+      {
+        "line": 689,
+        "doc": "",
+        "name": "update",
+        "type": "",
+        "isEnumValue": true
+      },
+      {
+        "line": 692,
+        "doc": "",
+        "name": "pose",
+        "type": "",
+        "isEnumValue": true
+      }
+    ],
+    "type": "enum"
+  }
+]
